@@ -31,27 +31,6 @@ Area Chair for ACCV 2020.
 Area Chair for ECCV 2020.
 
 
-## Projects
-
-Sparse-To-Dense Hypercolumn Matching for Long-Term Visual Localization
-
-SharpNet: Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation
-
-SyntheT-Less dataset
-
-HOnnotate: A method for 3D Annotation of Hand and Objects Poses
-
-Domain Transfer for 3D Pose Estimation and Feature Mapping
-
-3D Pose Estimation and 3D Model Retrieval for Objects in the Wild
-
-BB8: Robust 3D Object Pose Estimation
-
-ALCN: Adaptive Local Contrast Normalization
-
-Geo-localization from Images and 2.5D Maps
-
-
 ## Former PhD students and postdocs
 
 Giorgia Pitteri, Researcher at Robominds, Munich;
