@@ -31,7 +31,7 @@ Area Chair for ACCV 2020.
 Area Chair for ECCV 2020.
 
 
-## Former PhD students and postdocs
+### Former PhD students and postdocs
 
 Giorgia Pitteri, Researcher at Robominds, Munich;
 
