@@ -83,7 +83,7 @@ author:
   name             : "Vincent Lepetit"
   avatar           : "vincent_lepetit_hawai.jpg"
   bio              : "Researcher at <a href = https://imagine-lab.enpc.fr/>Imagine</a>, <a href=https://www.ecoledesponts.fr/en>ENPC</a>"
-  location         : "Office B411, <a href=https://imagine-lab.enpc.fr/find-us/>Building Coriolis</a><br><a href=https://imagine-lab.enpc.fr/>IMAGINE Research Group</a><br>École des Ponts ParisTech<br>6-8 Avenue Blaise Pascal<br>Champs-sur-Marne<br>77455 Marne-la-Vallée cedex 2<br>France<br>"
+  location         : "<br>Office B411, <a href = https://imagine-lab.enpc.fr/find-us/>Building Coriolis</a><br/><a href=https://imagine-lab.enpc.fr/>IMAGINE Research Group</a><br>École des Ponts ParisTech<br>6-8 Avenue Blaise Pascal<br>Champs-sur-Marne<br>77455 Marne-la-Vallée cedex 2<br>France<br>"
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=h0a5q3QAAAAJ&hl=en"
