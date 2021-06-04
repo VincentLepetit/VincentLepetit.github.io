@@ -219,6 +219,10 @@
   li {
     white-space: nowrap;
   }
+   
+  p {
+     color: blue
+   }
 
   a {
     display: block;
@@ -227,12 +231,12 @@
     padding-top: 2px;
     padding-bottom: 2px;
 /*    color: inherit; */
-     color: red;
+     color: rgb(76, 157, 150);
     font-size: $type-size-5;
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+/*      text-decoration: underline;*/
       color: rgb(120, 246, 233);
     }
   }
