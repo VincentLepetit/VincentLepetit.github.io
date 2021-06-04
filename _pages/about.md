@@ -14,7 +14,7 @@ I am a director of research at ENPC ParisTech, France. I also supervize a resear
 My research focuses on 3D scene understanding. More exactly, I aim at reducing as much as possible the guidance a system needs to learn new 3D objects and new 3D environments: How can we remove the need for training data for each new 3D problem? Currently, even self-supervised methods often require CAD models, which are not necessarily available for any type of object. This question has both theoretical implications and practical applications, as the need for training data, even synthetic, is often a deal breaker for non-academic problems.
 
 
-# News
+### News
 
 I willl be an Area Chair for CVPR 2022
 
@@ -31,7 +31,7 @@ Area Chair for ACCV 2020.
 Area Chair for ECCV 2020.
 
 
-# Projects
+## Projects
 
 Sparse-To-Dense Hypercolumn Matching for Long-Term Visual Localization
 
@@ -52,7 +52,7 @@ ALCN: Adaptive Local Contrast Normalization
 Geo-localization from Images and 2.5D Maps
 
 
-# Former PhD students and postdocs
+## Former PhD students and postdocs
 
 Giorgia Pitteri, Researcher at Robominds, Munich;
 
