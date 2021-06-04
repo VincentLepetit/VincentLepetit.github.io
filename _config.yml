@@ -85,8 +85,8 @@ author:
   bio              : "Researcher at <a href = https://imagine-lab.enpc.fr/>Imagine</a>, <a href=https://www.ecoledesponts.fr/en>ENPC</a>"
   
   location         : "<br>Office B411, <a href = https://imagine-lab.enpc.fr/find-us/>Building Coriolis</a><br/><a href=https://imagine-lab.enpc.fr/>IMAGINE Research Group</a><br>École des Ponts ParisTech<br>6-8 Avenue Blaise Pascal<br>Champs-sur-Marne<br>77455 Marne-la-Vallée cedex 2<br>France<br>"
-  location1        : "Office B411, <a href = https://imagine-lab.enpc.fr/find-us/>Building Coriolis</a>"
-  location2        : "<a href=https://imagine-lab.enpc.fr/>IMAGINE Research Group</a>"  
+  location_line1   : "Office B411, <a href = https://imagine-lab.enpc.fr/find-us/>Building Coriolis</a>"
+  location_line2   : "<a href=https://imagine-lab.enpc.fr/>IMAGINE Research Group</a>"  
   
   employer         : 
   pubmed           : 
