@@ -131,8 +131,9 @@
    
   a {
     color: rgb(76, 157, 150);
+    text-decoration: underline;
     &:hover {
-      color: rgb(120, 246, 233);
+      color: rgb(100, 200, 190);
     }
   }   
 }
@@ -240,11 +241,11 @@
 /*    color: inherit; */
      color: rgb(76, 157, 150);
     font-size: $type-size-5;
-    text-decoration: none;
+    text-decoration: underline;
 
     &:hover {
 /*      text-decoration: underline;*/
-      color: rgb(120, 246, 233);
+      color: rgb(100, 200, 190);
     }
   }
 }
