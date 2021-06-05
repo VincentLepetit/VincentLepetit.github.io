@@ -87,6 +87,11 @@ author:
   location         : "<br>Office B411, <a href = https://imagine-lab.enpc.fr/find-us/>Building Coriolis</a><br/><a href=https://imagine-lab.enpc.fr/>IMAGINE Research Group</a><br>École des Ponts ParisTech<br>6-8 Avenue Blaise Pascal<br>Champs-sur-Marne<br>77455 Marne-la-Vallée cedex 2<br>France<br>"
   location_line1   : "Office B411, <a href = https://imagine-lab.enpc.fr/find-us/>Building Coriolis</a>"
   location_line2   : "<a href=https://imagine-lab.enpc.fr/>IMAGINE Research Group</a>"  
+  location_line3   : "École des Ponts ParisTech"  
+  location_line4   : "6-8, Avenue Blaise Pascal"  
+  location_line5   : "Champs-sur-Marne"  
+  location_line6   : "77455 Marne-la-Vallée cedex 2"  
+  location_line7   : "France"  
   
   employer         : 
   pubmed           : 
