@@ -16,6 +16,12 @@ My research focuses on 3D scene understanding. More exactly, I aim at reducing a
 
 ### News
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="up_to_date_news.js"></script>
+<div id="news_here"></div>
+<script>up_to_date_news("https://imagine.enpc.fr/~lepetitv/news.json", "news_here");</script>
+
+
 I willl be an Area Chair for CVPR 2022
 
 4 papers accepted at CVPR 2021. Check out our papers on extending MCTS to auto-labelling for 3D scene understanding and on Neural reprojection error for merging feature learning and camera pose estimation.
