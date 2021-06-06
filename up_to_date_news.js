@@ -43,7 +43,7 @@ function news2html_js(news)
 	return "";
     } else {
 	ret += "</ul></p>"
-	ret = "<h2>News</h2>" + ret;
+	ret = "<h3>News</h3>" + ret;
 
 	return ret;
     }
