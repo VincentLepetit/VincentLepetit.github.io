@@ -1,0 +1,102 @@
+[
+    {
+	"posting_date": "2021/05/01",
+	"initial_message": "I willl be an Area Chair for CVPR 2022",
+	"date1": "2022/07/01.",
+	"message_after_date1": "Area Chair for CVPR 2022.",
+	"removal_date": "2023/07/01"
+    },
+
+    {
+	"posting_date": "2021/03/01",
+	"initial_message": "4 papers accepted at CVPR 2021. Check out our papers on <a href = \"https://arxiv.org/pdf/2103.07969.pdf\">extending MCTS to auto-labelling for 3D scene understanding</a> and on <a href = \"https://arxiv.org/pdf/2103.07153.pdf\">Neural reprojection error for merging feature learning and camera pose estimation</a>. ",
+	"removal_date": "2022/03/01"
+    },
+
+    {
+	"posting_date": "2020/30/09",
+	"initial_message": "1 paper accepted at ACCV 2020, on <a href=\"https://openaccess.thecvf.com/content/ACCV2020/papers/Pitteri_3D_Object_Detection_and_Pose_Estimation_of_Unseen_Objects_in_ACCV_2020_paper.pdf\">3D object pose estimation without training</a>.",
+	"removal_date": "2021/30/09"
+    },
+
+    {
+	"posting_date": "2020/08/24",
+	"initial_message": "With my co-authors, I received the Koenderick 'test of time' award at ECCV 2020 for BRIEF! - I am very grateful to the awards committee.",
+	"removal_date": "2021/12/31"
+    },
+
+    {
+	"posting_date": "2020/07/17",
+	"initial_message": "4 papers accepted at ECCV 2020.",
+	"removal_date": "2021/07/17"
+    },
+
+    {
+	"posting_date": "2020/03/11",
+	"initial_message": "2 papers accepted at CVPR 2020.",
+	"removal_date": "2021/03/11"
+    },
+
+    {
+	"posting_date": "2020/03/11",
+	"initial_message": "I will be an Area Chair for ACCV 2020. Submission deadline is July 8, 2020.",
+	"date1": "2020/07/08.",
+	"message_after_date1": "Area Chair for ACCV 2020.",
+	"removal_date": "2021/07/01"
+    },
+
+    {
+	"posting_date": "2019/10/22",
+	"initial_message": "I will be an Area Chair for ECCV 2020.",
+	"date1": "2020/03/05",
+	"message_after_date1": "Area Chair for ECCV 2020.",
+	"removal_date": "2021/07/01"
+    },
+
+    { 
+	"posting_date": "2019/10/01",
+	"initial_message": "Head of the program committee for <a href=\"https://cap-rfiap2020.sciencesconf.org/\">RFIAP 2020</a>. Deadline is February 19, 2020. Submitted papers can be either in French or in English if the first author is a non-native French speaker.",
+	"date1": "2020/02/19",
+	"message_after_date1": "Head of the program committee for <a href=\"https://cap-rfiap2020.sciencesconf.org/\">RFIAP 2020</a>.",
+	"date2": "2020/06/26",
+	"message_after_date2": "Head of the program committee for RFIAP 2020.",	
+	"removal_date": "2020/12/31"
+    },
+
+    { 
+	"posting_date": "2019/10/01",
+	"initial_message": "3 papers accepted at 3DV'19: On <a href=\"https://arxiv.org/pdf/1908.02853\">3D model retrieval from color images</a> (Oral), <a href=\"https://arxiv.org/pdf/1907.03965\">accurate geolocalization in challenging conditions</a> (Oral), and on the <a href=\"https://arxiv.org/pdf/1908.07640.pdf\">3D pose estimation of symmetrical objects</a> (Spotlight).",
+	"removal_date": "2020/10/01"
+    },
+
+    { 
+	"posting_date": "2019/07/01",
+	"initial_message": "1 paper accepted at ICCV'19 on <a href=\"https://arxiv.org/pdf/1908.02809.pdf\">3D object category pose estimation from color images</a>.",
+	"removal_date": "2020/07/01"
+    },
+
+    {
+	"posting_date": "2019/05/01",
+	"initial_message": "1 paper accepted at MICCAI'19 on <a href=\"https://arxiv.org/pdf/1906.01862\">whole brain MRI segmentation</a>.",
+	"removal_date": "2020/04/01"
+    },
+
+    {
+	"posting_date": "2019/05/01",
+	"initial_message": "Area Chair for ICCV 2019, BMVC 2019, and 3DV 2019.",
+	"removal_date": "2020/07/01"
+    },
+
+    {
+	"posting_date": "2019/03/01",
+	"initial_message": "1 paper accepted at CVPR'19 on <a href = \"https://arxiv.org/abs/1903.11332\">SILC: corner point detection for Event-Based Cameras</a> (based on .. Randomized Forests).",
+	"removal_date": "2020/03/01"
+    },
+
+    {
+	"posting_date": "2019/03/01",
+	"initial_message": "1 paper accepted at PAMI on <a href=\"https://arxiv.org/pdf/1903.10883.pdf\">joint hand-object pose estimation</a>.",
+	"removal_date": "2020/03/01"
+    }    
+]
+
