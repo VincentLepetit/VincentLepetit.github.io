@@ -17,9 +17,9 @@ My research focuses on 3D scene understanding. More exactly, I aim at reducing a
 ### News
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="up_to_date_news.js"></script>
+<script src="https://vincentlepetit.github.io/up_to_date_news.js"></script>
 <div id="news_here"></div>
-<script>up_to_date_news("https://imagine.enpc.fr/~lepetitv/news.json", "news_here");</script>
+<script>up_to_date_news("https://vincentlepetit.github.io/news.json", "news_here");</script>
 
 
 I willl be an Area Chair for CVPR 2022
