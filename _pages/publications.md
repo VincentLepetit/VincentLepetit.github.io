@@ -5,12 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://vincentlepetit.github.io/BibTex.js"></script>
+<script src="https://vincentlepetit.github.io/custom_BibTex.js"></script>
+<div class="publications"><div id="list_of_publications_here"></div></div>
+<script> bibtex2html_bibfile("https://vincentlepetit.github.io/list_of_publications.bib", "list_of_publications_here") </script>
