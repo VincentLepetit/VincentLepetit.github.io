@@ -2,6 +2,83 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
+div.publications h2 {
+    color: rgb(60, 60, 100);
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.thumbnail {
+    border: 0px;
+    /* border: 1px solid rgb(0,0,255); */
+}
+
+.publications .authors {
+    font-size: 100%;
+    /* display: block; */
+}
+
+.publications a.authors {
+    color: rgb(250,0,0);
+    /* color: rgb(60, 109, 64); */
+    display: block;
+}
+
+.publications .title {
+    font-weight: bold;
+}
+
+.publications a.title {
+    color: rgb(76, 157, 150);
+    font-weight: bold;
+}
+
+.publications .school {
+    font-size: 100%;
+}
+
+.publications .institution {
+    font-size: 100%;
+}
+
+.publications .number {
+    font-size: 100%;
+}
+
+.publications .in {
+    font-size: 100%;
+    font-style: italic;
+}
+
+.publications .pages {
+    font-size: 100%;
+    font-style: italic;
+}
+
+.publications .publisher {
+    font-size: 100%;
+    font-style: italic;
+}
+
+.publications .year {
+    font-size: 100%;
+}
+
+.publications .address {
+}
+
+.publications .note {
+    font-size: 100%;
+    font-style: italic;
+    color: rgb(157, 76, 83);
+}
+
+div.publications p {
+    margin-top: 6px;
+}
+
+
+
 #main {
   @include container;
   @include clearfix;
