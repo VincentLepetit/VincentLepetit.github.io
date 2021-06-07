@@ -200,7 +200,7 @@ function bibtex2html_BibTex(bibtex_entries)
 		    if (weblink != '') {
 			ret += "<a href = \"" + weblink + "\">";
 		    }
-		    ret += "<img alt = \"<missing>\" width = 170 src = \"https://vincentlepetit.github.io/" + img + "\" class = \"thumbnail\" ></img>";
+		    ret += "<img alt = \"<missing>\" width = 300 src = \"https://vincentlepetit.github.io/" + img + "\" class = \"thumbnail\" ></img>";
 		    if (weblink != '') {
 			ret += "</a>";
 		    }
