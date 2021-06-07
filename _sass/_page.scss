@@ -77,6 +77,29 @@ div.publications p {
     margin-top: 6px;
 }
 
+table#publis {
+    width: 100%;
+    /* line-height: 22px; */
+    border-collapse: collapse;
+    /* border: solid 0; */
+    /* border-width: 1px 0; */
+}
+
+table#publis tr {
+    vertical-align: middle;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+table#publis tr:last-child {
+  border-bottom: none;
+}
+
+table#publis td {
+    padding-bottom : 15px;
+    padding-top : 15px;
+    padding-left : 5px;
+}
+
 
 
 #main {
