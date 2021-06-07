@@ -31,11 +31,17 @@ div.publications h2 {
 
 .publications a {
     color: rgb(76, 157, 150);
+    &:hover {
+      color: rgb(100, 200, 190);
+   }
 }
 
 .publications a.title {
     color: rgb(76, 157, 150);
     font-weight: bold;
+    &:hover {
+      color: rgb(100, 200, 190);
+   }
 }
 
 .publications .school {
