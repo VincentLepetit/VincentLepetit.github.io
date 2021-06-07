@@ -80,18 +80,9 @@ div.publications p {
 table#publis {
     width: 100%;
     /* line-height: 22px; */
-    border-collapse: collapse;
-    border: solid 0;
+/*    border-collapse: collapse;*/
+    border: 0px;
     /* border-width: 1px 0; */
-}
-
-table#publis tr {
-    vertical-align: middle;
-    border-bottom: 1px solid rgb(200, 200, 200);
-}
-
-table#publis tr:last-child {
-  border-bottom: none;
 }
 
 table#publis td {
