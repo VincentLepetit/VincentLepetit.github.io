@@ -22,33 +22,18 @@ My research focuses on 3D scene understanding. More exactly, I aim at reducing a
 
 ### Former PhD students and postdocs
 
-Giorgia Pitteri, Researcher at Robominds, Munich;
-
-Bugra Tekin, Researcher at Microsoft Zurich;
-
-Kwang Moo Yi, Assistant Professor at the University of Victoria.
-
-Anil Armagan, Research Associate at Huawei Noah's Ark London;
-
-Markus Oberweger, Researcher at Naked Labs, Graz;
-
-Paul Wohlhart, Researcher, X, Mountain View;
-
-Artem Rozantsev, Researcher at Nvidia Zurich;
-
-Amos Sironi, Researcher at Prophesee, Paris;
-
-Alberto Crivellaro, S&H, Lombardy;
-
-Kevin Smith, Associate Professor at KTH, Stockholm;
-
-Tomasz Trzcinski, Assistant Professor at Warsaw University and CEO at comexifi.ai;
-
-Julien Pilet, Founder of anemomind and opticode, Lausanne;
-
-Mustafa Özuysal, Assistant Professor at the Izmir Institute of Technology;
-
-Ali Shahrokni, Senior Researcher at MagicLeap, Mountain View;
-
-Luca Vacchetti, Founder of Qualivision, Alba.
-
+* Giorgia Pitteri, Researcher at Robominds, Munich;
+* Bugra Tekin, Researcher at Microsoft Zurich;
+* Kwang Moo Yi, Assistant Professor at the University of Victoria.
+* Anil Armagan, Research Associate at Huawei Noah's Ark London;
+* Markus Oberweger, Researcher at Naked Labs, Graz;
+* Paul Wohlhart, Researcher, X, Mountain View;
+* Artem Rozantsev, Researcher at Nvidia Zurich;
+* Amos Sironi, Researcher at Prophesee, Paris;
+* Alberto Crivellaro, S&H, Lombardy;
+* Kevin Smith, Associate Professor at KTH, Stockholm;
+* Tomasz Trzcinski, Assistant Professor at Warsaw University and CEO at comexifi.ai;
+* Julien Pilet, Founder of anemomind and opticode, Lausanne;
+* Mustafa Özuysal, Assistant Professor at the Izmir Institute of Technology;
+* Ali Shahrokni, Senior Researcher at MagicLeap, Mountain View;
+* Luca Vacchetti, Founder of Qualivision, Alba.
