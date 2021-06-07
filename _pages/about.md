@@ -22,18 +22,19 @@ My research focuses on 3D scene understanding. More exactly, I aim at reducing a
 
 ### Former PhD students and postdocs
 
-* Giorgia Pitteri, Researcher at Robominds, Munich;
-* Bugra Tekin, Researcher at Microsoft Zurich;
-* Kwang Moo Yi, Assistant Professor at the University of Victoria.
-* Anil Armagan, Research Associate at Huawei Noah's Ark London;
-* Markus Oberweger, Researcher at Naked Labs, Graz;
-* Paul Wohlhart, Researcher, X, Mountain View;
-* Artem Rozantsev, Researcher at Nvidia Zurich;
-* Amos Sironi, Researcher at Prophesee, Paris;
-* Alberto Crivellaro, S&H, Lombardy;
-* Kevin Smith, Associate Professor at KTH, Stockholm;
-* Tomasz Trzcinski, Assistant Professor at Warsaw University and CEO at comexifi.ai;
-* Julien Pilet, Founder of anemomind and opticode, Lausanne;
-* Mustafa Özuysal, Assistant Professor at the Izmir Institute of Technology;
-* Ali Shahrokni, Senior Researcher at MagicLeap, Mountain View;
-* Luca Vacchetti, Founder of Qualivision, Alba.
+* [Giorgia Pitteri](https://www.linkedin.com/in/giorgia-pitteri-63218510b), Researcher at Robominds, Munich;
+* [Alexander Grabner](https://www.linkedin.com/in/alexander-grabner/), Scientist at Amazon Prime Air;
+* [Bugra Tekin](https://btekin.github.io/), Researcher at Microsoft Zurich;
+* [Kwang Moo Yi](https://www.cs.ubc.ca/~kmyi/), Assistant Professor at the University of British Columbia.
+* [Anil Armagan](https://sites.google.com/view/anilarmagan/), Research Associate at Huawei Noah's Ark London;
+* [Markus Oberweger](https://moberweger.github.io/), Researcher at Naked Labs, Graz;
+* [Paul Wohlhart](https://www.linkedin.com/in/paul-wohlhart-2349671/), Researcher, X, Mountain View;
+* [Artem Rozantsev](https://www.linkedin.com/in/artemrozantsev/?originalSubdomain=ch), Researcher at Nvidia Zurich;
+* [Amos Sironi](https://www.linkedin.com/in/amos-sironi/), Researcher at Prophesee, Paris;
+* [Alberto Crivellaro](https://www.linkedin.com/in/alberto-crivellaro-182b4a56/), S&H, Lombardy;
+* [Kevin Smith](https://www.kth.se/profile/ksmith), Associate Professor at KTH, Stockholm;
+* [Tomasz Trzcinski](http://ii.pw.edu.pl/~ttrzcins/index-en.html), Assistant Professor at Warsaw University and CEO at comexifi.ai;
+* [Julien Pilet](https://www.linkedin.com/in/julienpilet/), Founder of anemomind and opticode, Lausanne;
+* [Mustafa Özuysal](http://web.iyte.edu.tr/~mustafaozuysal/), Assistant Professor at the Izmir Institute of Technology;
+* [Ali Shahrokni](https://www.linkedin.com/in/ali-shaw-rockney-shahrokni-4874093a/), Senior Researcher at MagicLeap, Mountain View;
+* [Luca Vacchetti](https://www.linkedin.com/in/luca-vacchetti-a81170/), Founder of Qualivision, Alba.
