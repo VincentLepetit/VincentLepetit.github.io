@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a director of research at ENPC ParisTech, France. I also supervize a research group at TU Graz, Austria. Before that, I was a full professor at the Institute for Computer Graphics and Vision, Graz University of Technology, and before that, a senior researcher at CVLab, EPFL, Switzerland.
+I am a director of research at ENPC ParisTech, France. I also supervise a research group at TU Graz, Austria. Before that, I was a full professor at the Institute for Computer Graphics and Vision, Graz University of Technology, and before that, a senior researcher at CVLab, EPFL, Switzerland.
 
 
 My research focuses on 3D scene understanding. More exactly, I aim at reducing as much as possible the guidance a system needs to learn new 3D objects and new 3D environments: How can we remove the need for training data for each new 3D problem? Currently, even self-supervised methods often require CAD models, which are not necessarily available for any type of object. This question has both theoretical implications and practical applications, as the need for training data, even synthetic, is often a deal breaker for non-academic problems.
