@@ -189,7 +189,9 @@ function bibtex2html_BibTex(bibtex_entries)
 	    if (year == current_year) {
 		var img = extract(entry, 'img');
 		var weblink = extract(entry, 'weblink');
-
+		if (weblink == "") {
+		  weblink = extract(entry, 'pdf');
+		}
 		entry_html = entry2html(entry);
 		var anchor_html = "<a id=\"" + entry['cite'] + "\"></a>";		
 		ret += anchor_html;
