@@ -54,7 +54,7 @@ function entry2html(entry)
 	weblink = extract(entry, 'pdf');
     }
     if (weblink != "") {
-	if (!weblink.contains("http")) {
+	if (!weblink.includes("http")) {
 		weblink = "https://vincentlepetit.github.io/publications/../files/" + weblink;
 	}
     }
