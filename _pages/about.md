@@ -19,14 +19,14 @@ My research focuses on 3D scene understanding. More exactly, I aim at reducing a
 <div id="news_here"></div>
 <script>up_to_date_news("https://vincentlepetit.github.io/news.json", "news_here");</script>
 
-### Current PhD students
-* [Sinisa Stekovic](https://www.tugraz.at/institute/icg/research/team-lepetit/people/sinisa-stekovic/)
-* [Shreyas Hampali](https://shreyashampali.github.io)
-* [Hugo Germain](https://www.hugogermain.com)
-* [Michael Ramamonjisoa](https://michaelramamonjisoa.github.io)
-* [Yuming Du](https://www.linkedin.com/in/yuming-du-811828110/)
-* [Philippe Chiberre](https://www.linkedin.com/in/philippe-chiberre-99b27b102/)
-* [Van Nguyen Nguyen](https://imagine-lab.enpc.fr/staff-members/van-nguyen-nguyen/)
+[//]: <> (### Current PhD students )
+[//]: <> (* [Sinisa Stekovic](https://www.tugraz.at/institute/icg/research/team-lepetit/people/sinisa-stekovic/) )
+[//]: <> (* [Shreyas Hampali](https://shreyashampali.github.io) )
+[//]: <> (* [Hugo Germain](https://www.hugogermain.com) )
+[//]: <> (* [Michael Ramamonjisoa](https://michaelramamonjisoa.github.io) )
+[//]: <> (* [Yuming Du](https://www.linkedin.com/in/yuming-du-811828110/) )
+[//]: <> (* [Philippe Chiberre](https://www.linkedin.com/in/philippe-chiberre-99b27b102/) )
+[//]: <> (* [Van Nguyen Nguyen](https://imagine-lab.enpc.fr/staff-members/van-nguyen-nguyen/) )
 
 ### Former PhD students and postdocs
 
