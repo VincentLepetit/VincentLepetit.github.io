@@ -22,7 +22,7 @@
 
     {
 	"posting_date": "2021/03/01",
-	"initial_message": "4 papers accepted at CVPR 2021. Check out our papers on <a href = \"https://arxiv.org/pdf/2103.07969.pdf\">extending MCTS to auto-labelling for 3D scene understanding</a> and on <a href = \"https://arxiv.org/pdf/2103.07153.pdf\">Neural reprojection error for merging feature learning and camera pose estimation</a>. ",
+	"initial_message": "4 papers accepted at CVPR 2021. Check out our papers on <a href = \"https://arxiv.org/pdf/2103.07969.pdf\">extending MCTS to auto-labelling for 3D scene understanding</a>, on <a href = \"https://arxiv.org/pdf/2103.07153.pdf\">Neural reprojection error for merging feature learning and camera pose estimation</a>, on Single Image Depth Prediction with Wavelet Decomposition (in collaboration with Niantic). Congratulations Shreyas, Sinisa, Hugo, Michael!",
 	"removal_date": "2022/03/01"
     },
 
