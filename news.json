@@ -2,7 +2,7 @@
 
     {
 	"posting_date": "2021/07/22",
-	"initial_message": "2 papers accepted at ICCV 2021. The continuation of our work on MCTS for scene understanding has been accepted for an oral presentation, and our work on object discovery from videos as a poster. Congratulations Sinisa and Yuming!",
+	"initial_message": "2 papers accepted at ICCV 2021. The continuation of our work on MCTS for scene understanding has been accepted for an oral presentation, and our work on <a href = \"https://dulucas.github.io/Homepage/gbopt/\">object discovery</a> from videos as a poster. Congratulations Sinisa and Yuming!",
 	"removal_date": "2022/07/01"
     },
 	
