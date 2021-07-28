@@ -1,7 +1,20 @@
 [
+
+    {
+	"posting_date": "2021/07/22",
+	"initial_message": "2 papers accepted at ICCV 2021. The continuation of our work on MCTS for scene understanding has been accepted for an oral presentation, and our work on object discovery from videos as a poster. Congratulations Sinisa and Yuming!",
+	"removal_date": "2022/07/01"
+    },
+	
+    {
+	"posting_date": "2021/06/20",
+	"initial_message": "we received the Best paper award at the CVPR2021 Workshop on Event-based Vision for our paper Detecting Stable Keypoints From Events Through Image Gradient Prediction, congratulations Philippe!",
+	"removal_date": "2022/06/20"
+    },
+
     {
 	"posting_date": "2021/05/01",
-	"initial_message": "I willl be an Area Chair for CVPR 2022",
+	"initial_message": "I will be an Area Chair for CVPR 2022",
 	"date1": "2022/07/01.",
 	"message_after_date1": "Area Chair for CVPR 2022.",
 	"removal_date": "2023/07/01"
