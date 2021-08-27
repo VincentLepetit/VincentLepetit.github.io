@@ -183,6 +183,11 @@ function bibtex2html_BibTex(bibtex_entries)
 
     var ret = "";
 
+    const uaDataIsMobile = window.navigator.userAgentData?.mobile;
+    if (uaDataIsMobile) {
+	    ret = "MOBILE";
+    }
+	
     for (var current_year = max_year; current_year >= min_year; current_year--) {
 	ret += "<h2>\n" + current_year.toString() + "</h2>\n";
 
