@@ -137,7 +137,7 @@ function entry2html(entry, arxiv_vanity = false)
 	
     var arxiv_vanity_html = "";
     if (arxiv_vanity) {
-	    if (weblink.contains("arxiv")) {
+	    if (weblink.includes("arxiv")) {
 		const regex = /[0-9][0-9][0-9][0-9]\.[0-9][0-9][0-9][0-9]/;
                 const index = weblink.match(regex);
 		arxiv_vanity_html = index + "</p>"    
