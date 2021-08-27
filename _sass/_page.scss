@@ -92,7 +92,7 @@ table#publis {
     width: 100%;
     /* line-height: 22px; */
 /*    border-collapse: collapse;*/
-    border: 2px solid;
+    border: 0px solid;
     /* border-width: 1px 0; */
 }
 
@@ -100,11 +100,27 @@ table#publis td {
     padding-bottom : 15px;
     padding-top : 15px;
     padding-left : 5px;
-    border: 2px solid red;
 }
 
 table#publis tr {
     border: 0px solid white;
+}
+
+table#publis_mobile {
+    width: 100%;
+    /* line-height: 22px; */
+/*    border-collapse: collapse;*/
+    border: 1px solid;
+    /* border-width: 1px 0; */
+}
+
+table#publis_mobile td {
+    padding-bottom : 15px;
+    padding-top : 15px;
+    padding-left : 5px;
+}
+
+table#publis_mobile tr {
 }
 
 
