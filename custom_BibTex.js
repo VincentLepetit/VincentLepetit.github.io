@@ -246,8 +246,6 @@ function bibtex2html_BibTex_on_mobile(bibtex_entries)
     for (var current_year = max_year; current_year >= min_year; current_year--) {
 	ret += "<h2>\n" + current_year.toString() + "</h2>\n";
 
-	ret += "<table id=\"publis\">\n";
-
 	for (var i=0; i<bibtex_entries.data.length; i++){
 	    var entry = bibtex_entries.data[i];
 	    var year = Number(extract(entry, 'year'));
@@ -261,6 +259,7 @@ function bibtex2html_BibTex_on_mobile(bibtex_entries)
 		var anchor_html = "<a id=\"" + entry['cite'] + "\"></a>";		
 		ret += anchor_html;
 
+		ret += "<table id=\"publis_mobile\">\n";
 		ret += "<tr>\n";
 		if (img != '') {
 		    ret += "<td>";
@@ -280,9 +279,10 @@ function bibtex2html_BibTex_on_mobile(bibtex_entries)
 		    ret += "</td>";
 		}
 		ret += "</tr>\n";
+         	ret += "</table>\n";		    
 	    }
 	}
-	ret += "</table>\n";
+
     }
 
     return ret;
