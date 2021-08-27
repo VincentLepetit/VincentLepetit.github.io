@@ -108,9 +108,10 @@ table#publis tr {
 
 table#publis_mobile {
     width: 100%;
-    /* line-height: 22px; */
-/*    border-collapse: collapse;*/
     border-left: 1px solid rgb(200, 0, 0);
+    border-top: 1px solid rgb(0, 200, 0);
+    border-right: 1px solid rgb(0, 0, 200);
+    border-bottom: 1px solid rgb(200, 0, 200);
 /*    border-left: 1px solid;  */
     /* border-width: 1px 0; */
 }
@@ -119,9 +120,11 @@ table#publis_mobile td {
     padding-bottom : 15px;
     padding-top : 15px;
     padding-left : 5px;
+    border: 0px solid white;   
 }
 
 table#publis_mobile tr {
+       border: 0px solid white;
 }
 
 
