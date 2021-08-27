@@ -189,6 +189,7 @@ function bibtex2html_BibTex(bibtex_entries)
     } else {
    	    ret = "NOT MOBILE";
     }
+    ret += navigator.userAgent;
 	
     for (var current_year = max_year; current_year >= min_year; current_year--) {
 	ret += "<h2>\n" + current_year.toString() + "</h2>\n";
