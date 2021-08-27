@@ -130,7 +130,7 @@ function entry2html(entry, arxiv_vanity = false)
     var project_html = "";
     var project = extract(entry, 'project');
     if (project != '') {
-	project_html += "<p><a href = \"" + project + "\">Project page</a>"
+	project_html += "<a href = \"" + project + "\">Project page</a>"
     }
     
     ////////////////////////////////////////////////////////////////////////////////
@@ -140,18 +140,29 @@ function entry2html(entry, arxiv_vanity = false)
 	    if (weblink.includes("arxiv")) {
 		const regex = /[0-9][0-9][0-9][0-9]\.[0-9][0-9][0-9][0-9]/;
                 const index = weblink.match(regex);
-		arxiv_vanity_html = index + "</p>"    
+		arxiv_vanity_html = "<a href = \"https://www.arxiv-vanity.com/papers/" + index + "/\">View this paper on arXiv-Vanity</a>"
 	    } else {
-	        arxiv_vanity_html = "</p>"
+	        arxiv_vanity_html = ""
 	    }
     } else {
-        arxiv_vanity_html = "</p>"
+        arxiv_vanity_html = ""
+    }
+	
+    ////////////////////////////////////////////////////////////////////////////////
+	
+    var end = "";
+    if (project_html != "" && arxiv_vanity_html != "") {
+	end = "<p>" + project_html + " - " + arxiv_vanity_html + "</p>";
+    } else if (project_html != "" && arxiv_vanity_html == "") {
+	end = "<p>" + project_html + "</p>";
+    } else  if (project_html == "" && arxiv_vanity_html != "") {
+	end = "<p>" + arxiv_vanity_html + "</p>";
     }
     
     if (entry['entryType'] == 'inproceedings') {
-	return title_html + ". " + authors_html + ". " + venue_html + ", " + year_html + ". " + note_html + project_html + arxiv_vanity_html;
+	return title_html + ". " + authors_html + ". " + venue_html + ", " + year_html + ". " + note_html + end;
     } else if (entry['entryType'] == 'article') {
-	return title_html + ". " + authors_html + ". " + venue_html + ", " + year_html + ". " + note_html + project_html + arxiv_vanity_html;
+	return title_html + ". " + authors_html + ". " + venue_html + ", " + year_html + ". " + note_html + end;
     } else if (entry['entryType'] == 'inbook') {
 	var booktitle = extract(entry, 'title');
 	var booktitle_html = "Chapter in <span class=\"in\">" + booktitle + "</span>";
@@ -161,7 +172,7 @@ function entry2html(entry, arxiv_vanity = false)
 	    var publisher_html = "<span class=\"publisher\">" + publisher + "</span>";
 	    ret += ". " + publisher_html;
 	}
-	ret += ", " + year_html + ". " + note_html + project_html + arxiv_vanity_html;
+	ret += ", " + year_html + ". " + note_html + end;
 	return ret;
     } else if (entry['entryType'] == 'techreport') {
 	var ret = title_html + ". " + authors_html + ". ";
@@ -174,10 +185,10 @@ function entry2html(entry, arxiv_vanity = false)
 	if (number != "") {
 	    ret += ", <span class=\"number\">" + number + "</span>";
 	}
-	ret += ", " + year_html + ". " + note_html + project_html + arxiv_vanity_html;
+	ret += ", " + year_html + ". " + note_html + end;
 	return ret;
     } else if (entry['entryType'] == 'hdr') {
-	return title_html + ". " + authors_html + ". " + venue_html + ", " + year_html + ". " + note_html + project_html + arxiv_vanity_html;
+	return title_html + ". " + authors_html + ". " + venue_html + ", " + year_html + ". " + note_html;
     }
 
     ////////////////////////////////////////////////////////////////////////////////
