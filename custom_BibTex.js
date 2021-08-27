@@ -186,6 +186,8 @@ function bibtex2html_BibTex(bibtex_entries)
     const uaDataIsMobile = window.navigator.userAgentData?.mobile;
     if (uaDataIsMobile) {
 	    ret = "MOBILE";
+    } else {
+   	    ret = "NOT MOBILE";
     }
 	
     for (var current_year = max_year; current_year >= min_year; current_year--) {
