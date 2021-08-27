@@ -47,7 +47,7 @@ function extract(entry, field)
     }
 }
 
-function entry2html(entry, arxiv_vanity = False)
+function entry2html(entry, arxiv_vanity = false)
 {
     ret = "";
 
@@ -268,7 +268,7 @@ function bibtex2html_BibTex_on_mobile(bibtex_entries)
 		if (weblink == "") {
 		  weblink = extract(entry, 'pdf');
 		}
-		entry_html = entry2html(entry, True);
+		entry_html = entry2html(entry, true);
 		var anchor_html = "<a id=\"" + entry['cite'] + "\"></a>";		
 		ret += anchor_html;
 
