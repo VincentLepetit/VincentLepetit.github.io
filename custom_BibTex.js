@@ -140,6 +140,7 @@ function entry2html(entry, arxiv_vanity = false)
 	    if (weblink.includes("arxiv")) {
 		const regex = /[0-9\.]+\.pdf/;
                 var index = weblink.match(regex);
+		index = index.substr(0, index.length - 4)
 		arxiv_vanity_html = "<a href = \"https://www.arxiv-vanity.com/papers/" + index + "/\">View this paper on arXiv-Vanity</a> (" + index + ")";
 	    } else {
 	        arxiv_vanity_html = ""
