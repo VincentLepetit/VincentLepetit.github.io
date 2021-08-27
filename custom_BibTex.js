@@ -140,9 +140,10 @@ function entry2html(entry, arxiv_vanity = false)
 	    if (weblink.includes("arxiv")) {
 		const regex = /[0-9\.]+\.pdf/;
                 var index = weblink.match(regex);
-		arxiv_vanity_html = index + " !! ";
-// 		index = index.substr(0, index.length - 4)
-// 		arxiv_vanity_html = "<a href = \"https://www.arxiv-vanity.com/papers/" + index + "/\">View this paper on arXiv-Vanity</a> (" + index + ")";
+		if (index != null) {
+			index = index[0];
+ 		index = index.substr(0, index.length - 4)
+ 		arxiv_vanity_html = "<a href = \"https://www.arxiv-vanity.com/papers/" + index + "/\">View this paper on arXiv-Vanity</a> (" + index + ")";
 	    } else {
 	        arxiv_vanity_html = ""
 	    }
