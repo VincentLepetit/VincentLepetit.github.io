@@ -142,8 +142,9 @@ function entry2html(entry, arxiv_vanity = false)
                 var index = weblink.match(regex);
 		if (index != null) {
 			index = index[0];
- 		index = index.substr(0, index.length - 4)
- 		arxiv_vanity_html = "<a href = \"https://www.arxiv-vanity.com/papers/" + index + "/\">View this paper on arXiv-Vanity</a> (" + index + ")";
+ 			index = index.substr(0, index.length - 4)
+ 			arxiv_vanity_html = "<a href = \"https://www.arxiv-vanity.com/papers/" + index + "/\">View this paper on arXiv-Vanity</a> (" + index + ")";
+		}
 	    } else {
 	        arxiv_vanity_html = ""
 	    }
