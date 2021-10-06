@@ -126,6 +126,26 @@ table#publis_mobile tr {
        border: 0px solid white;
 }
 
+div.bibtex {
+    display     : none;
+    border      : 1px solid gray;
+    font-family : courier;
+    font-size : 10px;
+    line-height : 10px;
+    text-align  : left;
+    line-height: 15px;
+}
+
+input.bibtex_button {
+    color: black;
+    background: white;
+    /* border: solid -1px #ffcf31; */
+    border: 0px;
+    font-weight : bold;
+    margin: 0px;
+    padding: 0px;
+    font-size :80%;
+}
 
 
 #main {
