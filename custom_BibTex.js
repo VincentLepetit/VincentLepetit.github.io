@@ -25,6 +25,25 @@ var expanded_venues = [
     "WACV",  "IEEE Winter Conference on Applications of Computer Vision (<b>WACV</b>)"
 ];
 
+///////////////////////////////////////////////////////////////////////////////////////////
+function toggle_bibtex(ref, button) {
+  var el = document.getElementById(ref);
+
+  if (!el) return true;
+
+  if (el.style.display == "none") {
+    el.style.display = "block"
+    button.value = "hide bibtex"
+  } else {
+    el.style.display = "none"
+    button.value = "show bibtex"
+  }
+
+  return true;
+}
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
 function uniformize_venue(venue) {
     v = expanded_venues;
     for(i = 0; i < v.length; i+=2) {
@@ -243,6 +262,19 @@ function bibtex2html_BibTex(bibtex_entries)
 		    }
 		    ret += "</td><td>";
 		    ret += entry_html;
+			
+			paper_tag = "allo";
+	ret = ret . "<br>\n<input type=\"button\" class=\"button\" onclick=\"return toggle_bibtex('" + paper_tag + "_button', this)\" value=\"show bibtex\">";
+	ret = ret . "<div class=\"bibtex\" id=\"" + paper_tag + "_button\" style =\"display:none\">";
+	ret = ret . "@" + "inproceedings" + "{" + paper_tag + ",<br>";
+	ret = ret . "&nbsp;&nbsp;author = \"" + "\",<br>";
+	ret = ret . "&nbsp;&nbsp;title = {{" + "title" + "}},<br>";
+	ret = ret . "&nbsp;&nbsp;journal = {{" + "journal" + "}},<br>";
+	ret = ret . "&nbsp;&nbsp;year = " + "year" + "<br>";
+	ret = ret . "}";
+	ret = ret . "</div>";
+			
+			
 		    ret += "</td></tr>\n";
 		} else {
 		    ret += "<td colspan=\"2\">";
