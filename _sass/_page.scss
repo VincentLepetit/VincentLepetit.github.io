@@ -130,7 +130,7 @@ div.bibtex {
     display     : none;
     border      : 1px solid gray;
     font-family : courier;
-    font-size : 10px;
+/*    font-size : 10px;*/
     line-height : 10px;
     text-align  : left;
     line-height: 15px;
@@ -140,12 +140,12 @@ div.bibtex {
 
 input.bibtex_button {
     color: rgb(76, 157, 150);
+    text-decoration: underline;
     background: white;
     /* border: solid -1px #ffcf31; */
     border: 0px;
     margin: 0px;
     padding: 0px;
-    font-size :80%;
 }
 
 
