@@ -26,23 +26,6 @@ var expanded_venues = [
 ];
 
 ///////////////////////////////////////////////////////////////////////////////////////////
-function toggle_bibtex(ref, button) {
-  var el = document.getElementById(ref);
-
-  if (!el) return true;
-
-  if (el.style.display == "none") {
-    el.style.display = "block"
-    button.value = "hide bibtex"
-  } else {
-    el.style.display = "none"
-    button.value = "show bibtex"
-  }
-
-  return true;
-}
-//////////////////////////////////////////////////////////////////////////////////////////
-
 
 function uniformize_venue(venue) {
     v = expanded_venues;
@@ -66,7 +49,24 @@ function extract(entry, field)
     }
 }
 
-function entry2html(entry, arxiv_vanity = false)
+function toggle_bibtex(ref, button) {
+  var el = document.getElementById(ref);
+
+  if (!el) return true;
+
+  if (el.style.display == "none") {
+    el.style.display = "block"
+    button.value = "(hide bibtex entry)"
+  } else {
+    el.style.display = "none"
+    button.value = "Show bibtex entry"
+  }
+
+  return true;
+}
+
+
+function entry2html(entry, arxiv_vanity = false, bibtex = true)
 {
     ret = "";
 
@@ -173,6 +173,41 @@ function entry2html(entry, arxiv_vanity = false)
 	
     ////////////////////////////////////////////////////////////////////////////////
 	
+    var bibtex_button_html = "";
+    if (bibtex && (entry['entryType'] == 'inproceedings' || entry['entryType'] == 'article') ) {
+	paper_tag = bibtex_entries._formatAuthor(entry['author'][0]).replace(' ', '') + extract(entry, 'year').substring(2,3);
+	authors = "";
+	if (array_key_exists('author', entry)) {
+    	    var N = entry['author'].length;
+      	    if (N == 1) {
+    	        authors = bibtex_entries._formatAuthor(entry['author'][0]);
+    	    } else {
+    	        for (var i = 0; i < N-1; i++) {
+    		    authors += bibtex_entries._formatAuthor(entry['author'][i]);
+    		    authors += " and "
+    	        }
+    	        authors += bibtex_entries._formatAuthor(entry['author'][N-1]);
+	    }		
+        }    
+	bibtex_button_html += "\n<input type=\"button\" class=\"bibtex_button\" onclick=\"return toggle_bibtex('" + paper_tag + "_button', this)\" value=\"show bibtex\">";
+	bibtex_button_html += "<div class=\"bibtex\" id=\"" + paper_tag + "_button\" style =\"display:none\">";
+        bibtex_button_html += "@" + entry['entryType'] + "{" + paper_tag + ",<br>";
+	bibtex_button_html += "&nbsp;&nbsp;author = \"" + authors + "\",<br>";
+	bibtex_button_html += "&nbsp;&nbsp;title = {{" + title + "}},<br>";
+        if (entry['entryType'] == 'inproceedings') {
+ 	    var booktitle = extract(entry, 'booktitle')
+	    bibtex_button_html += "&nbsp;&nbsp;booktitle = {{In " + uniformize_venue(booktitle).replace(/<.*>/, '') + "}},<br>";
+        } else if (entry['entryType'] == 'article') {
+	    var journal = extract(entry, 'journal')
+	    bibtex_button_html += "&nbsp;&nbsp;booktitle = {{" + uniformize_venue(journal).replace(/<.*>/, '') + "}},<br>";
+        }
+	bibtex_button_html += "&nbsp;&nbsp;year = " + year + "<br>";
+	bibtex_button_html += "}";
+	bibtex_button_html += "</div>";	    
+    }
+	
+    ////////////////////////////////////////////////////////////////////////////////
+	
     var end = "";
     if (project_html != "" && arxiv_vanity_html != "") {
 	end = "<p>" + project_html + " - " + arxiv_vanity_html + "</p>";
@@ -261,19 +296,7 @@ function bibtex2html_BibTex(bibtex_entries)
 			ret += "</a>";
 		    }
 		    ret += "</td><td>";
-		    ret += entry_html;
-			
-			paper_tag = "allo";
-	ret = ret + "\n<input type=\"button\" class=\"bibtex_button\" onclick=\"return toggle_bibtex('" + paper_tag + "_button', this)\" value=\"show bibtex\">";
-	ret = ret + "<div class=\"bibtex\" id=\"" + paper_tag + "_button\" style =\"display:none\">";
-	ret = ret + "@" + "inproceedings" + "{" + paper_tag + ",<br>";
-	ret = ret + "&nbsp;&nbsp;author = \"" + "\",<br>";
-	ret = ret + "&nbsp;&nbsp;title = {{" + "title" + "}},<br>";
-	ret = ret + "&nbsp;&nbsp;journal = {{" + "journal" + "}},<br>";
-	ret = ret + "&nbsp;&nbsp;year = " + "year" + "<br>";
-	ret = ret + "}";
-	ret = ret + "</div>";
-			
+		    ret += entry_html;			
 			
 		    ret += "</td></tr>\n";
 		} else {
