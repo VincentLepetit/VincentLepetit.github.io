@@ -134,14 +134,15 @@ div.bibtex {
     line-height : 10px;
     text-align  : left;
     line-height: 15px;
+   margin: 5px;
+   padding: 5px;
 }
 
 input.bibtex_button {
-    color: black;
+    color: rgb(76, 157, 150);
     background: white;
     /* border: solid -1px #ffcf31; */
     border: 0px;
-    font-weight : bold;
     margin: 0px;
     padding: 0px;
     font-size :80%;
