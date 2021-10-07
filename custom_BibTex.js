@@ -175,7 +175,17 @@ function entry2html(entry, arxiv_vanity = false, bibtex = true)
 	
     var bibtex_button_html = "";
     if (bibtex && (entry['entryType'] == 'inproceedings' || entry['entryType'] == 'article') ) {
-	paper_tag = entry['author'][0]['last'].replace(' ', '') + extract(entry, 'year').substring(2,4);
+	venue = "";
+	if (entry['entryType'] == 'inproceedings') {
+ 	    venue = extract(entry, 'booktitle')
+        } else if (entry['entryType'] == 'article') {
+	    venue = extract(entry, 'journal')
+	}
+	if (venue.length > 0 && venue.length <= 5) {
+	    paper_tag = entry['author'][0]['last'].replace(/^[^ ]+ /, '') + "_" + venue + extract(entry, 'year').substring(2,4);
+	} else {
+	    paper_tag = entry['author'][0]['last'].replace(/^[^ ]+ /, '') + extract(entry, 'year').substring(2,4);		
+	}
 	authors = "";
 	if (array_key_exists('author', entry)) {
     	    var N = entry['author'].length;
