@@ -175,7 +175,7 @@ function entry2html(entry, arxiv_vanity = false, bibtex = true)
 	
     var bibtex_button_html = "";
     if (bibtex && (entry['entryType'] == 'inproceedings' || entry['entryType'] == 'article') ) {
-	paper_tag = bibtex_entries._formatAuthor(entry['author'][0]).replace(' ', '') + extract(entry, 'year').substring(2,3);
+	paper_tag = entry['author'][0]['last'].replace(' ', '') + extract(entry, 'year').substring(2,4);
 	authors = "";
 	if (array_key_exists('author', entry)) {
     	    var N = entry['author'].length;
@@ -196,10 +196,10 @@ function entry2html(entry, arxiv_vanity = false, bibtex = true)
 	bibtex_button_html += "&nbsp;&nbsp;title = {{" + title + "}},<br>";
         if (entry['entryType'] == 'inproceedings') {
  	    var booktitle = extract(entry, 'booktitle')
-	    bibtex_button_html += "&nbsp;&nbsp;booktitle = {{In " + uniformize_venue(booktitle).replace(/<.*>/, '') + "}},<br>";
+	    bibtex_button_html += "&nbsp;&nbsp;booktitle = {{In " + uniformize_venue(booktitle).replace(/<[^>]*>/g, '') + "}},<br>";
         } else if (entry['entryType'] == 'article') {
 	    var journal = extract(entry, 'journal')
-	    bibtex_button_html += "&nbsp;&nbsp;booktitle = {{" + uniformize_venue(journal).replace(/<.*>/, '') + "}},<br>";
+	    bibtex_button_html += "&nbsp;&nbsp;booktitle = {{" + uniformize_venue(journal).replace(/<[^>]*>/g, '') + "}},<br>";
         }
 	bibtex_button_html += "&nbsp;&nbsp;year = " + year + "<br>";
 	bibtex_button_html += "}";
