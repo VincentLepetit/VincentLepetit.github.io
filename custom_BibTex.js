@@ -264,7 +264,7 @@ function bibtex2html_BibTex(bibtex_entries)
 		    ret += entry_html;
 			
 			paper_tag = "allo";
-	ret = ret + "<br>\n<input type=\"button\" class=\"bibtex_button\" onclick=\"return toggle_bibtex('" + paper_tag + "_button', this)\" value=\"show bibtex\">";
+	ret = ret + "\n<input type=\"button\" class=\"bibtex_button\" onclick=\"return toggle_bibtex('" + paper_tag + "_button', this)\" value=\"show bibtex\">";
 	ret = ret + "<div class=\"bibtex\" id=\"" + paper_tag + "_button\" style =\"display:none\">";
 	ret = ret + "@" + "inproceedings" + "{" + paper_tag + ",<br>";
 	ret = ret + "&nbsp;&nbsp;author = \"" + "\",<br>";
