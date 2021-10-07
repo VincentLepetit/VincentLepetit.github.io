@@ -218,9 +218,9 @@ function entry2html(entry, arxiv_vanity = false, bibtex = true)
 	    end = "<p>" + project_html + "</p>";
 	}
     } else if (arxiv_vanity_html != "") {
-        end = "<p>" arxiv_vanity_html + "</p>";
+        end = "<p>" + arxiv_vanity_html + "</p>";
     } else if (bibtex_button_html != "") {
-	    end = "<p>" + bibtex_button_html + "</p>";		
+	end = "<p>" + bibtex_button_html + "</p>";		
     }
     
     if (entry['entryType'] == 'inproceedings') {
