@@ -56,10 +56,10 @@ function toggle_bibtex(ref, button) {
 
   if (el.style.display == "none") {
     el.style.display = "block"
-    button.value = "(hide bibtex entry)"
+    button.value = "(hide bibtex code)"
   } else {
     el.style.display = "none"
-    button.value = "Show bibtex entry"
+    button.value = "Show bibtex code"
   }
 
   return true;
@@ -199,7 +199,7 @@ function entry2html(entry, arxiv_vanity = false, bibtex = true)
     	        authors += bibtex_entries._formatAuthor(entry['author'][N-1]);
 	    }		
         }    
-	bibtex_button_html += "\n<input type=\"button\" class=\"bibtex_button\" onclick=\"return toggle_bibtex('" + paper_tag + "_button', this)\" value=\"show bibtex\">";
+	bibtex_button_html += "\n<input type=\"button\" class=\"bibtex_button\" onclick=\"return toggle_bibtex('" + paper_tag + "_button', this)\" value=\"Show bibtex code\">";
 	bibtex_button_html += "<div class=\"bibtex\" id=\"" + paper_tag + "_button\" style =\"display:none\">";
         bibtex_button_html += "@" + entry['entryType'] + "{" + paper_tag + ",<br>";
 	bibtex_button_html += "&nbsp;&nbsp;author = \"" + authors + "\",<br>";
@@ -209,7 +209,7 @@ function entry2html(entry, arxiv_vanity = false, bibtex = true)
 	    bibtex_button_html += "&nbsp;&nbsp;booktitle = {{In " + uniformize_venue(booktitle).replace(/<[^>]*>/g, '') + "}},<br>";
         } else if (entry['entryType'] == 'article') {
 	    var journal = extract(entry, 'journal')
-	    bibtex_button_html += "&nbsp;&nbsp;booktitle = {{" + uniformize_venue(journal).replace(/<[^>]*>/g, '') + "}},<br>";
+	    bibtex_button_html += "&nbsp;&nbsp;journal = {{" + uniformize_venue(journal).replace(/<[^>]*>/g, '') + "}},<br>";
         }
 	bibtex_button_html += "&nbsp;&nbsp;year = " + year + "<br>";
 	bibtex_button_html += "}";
