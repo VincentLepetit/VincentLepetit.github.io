@@ -3,6 +3,8 @@
 // <script src="BibTex.js"></script>
 
 image_root = "https://vincentlepetit.github.io/"
+pdf_root   = "https://vincentlepetit.github.io/"
+
 
 var expanded_venues = [
     "3DV",   "International Conference on 3D Vision",
@@ -76,7 +78,8 @@ function entry2html(entry, arxiv_vanity = false, bibtex = true)
     }
     if (weblink != "") {
 	if (!weblink.includes("http")) {
-		weblink = "https://vincentlepetit.github.io/publications/../files/" + weblink;
+		weblink = pdf_root + weblink;
+		// weblink = "https://vincentlepetit.github.io/publications/../files/" + weblink;
 	}
     }
 	
