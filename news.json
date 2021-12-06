@@ -1,6 +1,12 @@
 [
 
     {
+	"posting_date": "2021/10/18",
+	"initial_message": "Yuming, together with Yang Xiao and Wen Gao (RobotLearnInria), won both tracks 1 and 2 at the <a href=\"https://sites.google.com/view/unidentified-video-object/home\">Unidentified Video Objects challenge</a>",
+	"removal_date": "2022/10/01"
+    },
+	
+    {
 	"posting_date": "2021/07/22",
 	"initial_message": "2 papers accepted at ICCV 2021. The continuation of our work on MCTS for scene understanding has been accepted for an oral presentation, and our work on <a href = \"https://dulucas.github.io/Homepage/gbopt/\">object discovery</a> from videos as a poster. Congratulations Sinisa and Yuming!",
 	"removal_date": "2022/07/01"
@@ -15,8 +21,10 @@
     {
 	"posting_date": "2021/05/01",
 	"initial_message": "I will be an Area Chair for CVPR 2022.",
-	"date1": "2022/07/01.",
-	"message_after_date1": "Area Chair for CVPR 2022.",
+	"date1": "2021/11/01",
+	"message_after_date1": "I am an Area Chair for CVPR 2022.",
+	"date2": "2022/07/01",
+	"message_after_date2": "Area Chair for CVPR 2022.",
 	"removal_date": "2023/07/01"
     },
 
