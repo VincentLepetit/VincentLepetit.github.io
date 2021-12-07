@@ -160,12 +160,17 @@ function entry2html(entry, arxiv_vanity = false, bibtex = true)
     var arxiv_vanity_html = "";
     if (arxiv_vanity) {
 	    if (weblink.includes("arxiv")) {
-		const regex = /[0-9\.]+\.pdf/;
-                var index = weblink.match(regex);
+		// const regex_pdf = /[0-9\.]+\.pdf/;
+                var index = weblink.match(/[0-9\.]+\.pdf/);
+		if (index == null) {
+		    index = weblink.match(/[0-9\.]/);
+		}
 		if (index != null) {
 			index = index[0];
  			index = index.substr(0, index.length - 4)
- 			arxiv_vanity_html = "<a href = \"https://www.arxiv-vanity.com/papers/" + index + "/\">View this paper on arXiv-Vanity</a>";
+ 		        arxiv_vanity_html = "<a href = \"https://www.arxiv-vanity.com/papers/" +
+			                    index +
+			                    "/\">View this paper on arXiv-Vanity</a>";
 		}
 	    } else {
 	        arxiv_vanity_html = ""
