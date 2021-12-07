@@ -162,7 +162,7 @@ function entry2html(entry, arxiv_vanity = false, bibtex = true)
 	    if (weblink.includes("arxiv")) {
 		// const regex_pdf = /[0-9\.]+\.pdf/;
                 var index = weblink.match(/[0-9\.]+\.pdf/);
-		var index_str = ""
+		var index_str = "";
 		if (index != null) {
 			index_str = index[0];
  			index_str = index.substr(0, index_str.length - 4)
