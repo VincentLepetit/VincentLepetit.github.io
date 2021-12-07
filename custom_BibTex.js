@@ -175,7 +175,7 @@ function entry2html(entry, arxiv_vanity = false, bibtex = true)
 		if (index_str != "") {
  		        arxiv_vanity_html = "<a href = \"https://www.arxiv-vanity.com/papers/" +
 			                    index_str +
-			                    "/\">View this paper on arXiv-Vanity" + index_str + "!</a>";
+			                    "/\">View this paper on arXiv-Vanity" + index_str + "!!!</a>";
 		}
 	    }
     }
@@ -363,7 +363,7 @@ function bibtex2html_BibTex_on_mobile(bibtex_entries)
 		if (weblink == "") {
 		  weblink = extract(entry, 'pdf');
 		}
-		entry_html = entry2html(entry, true);
+		entry_html = entry2html(entry, true, false);
 		var anchor_html = "<a id=\"" + entry['cite'] + "\"></a>";		
 		ret += anchor_html;
 
