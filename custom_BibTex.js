@@ -162,12 +162,16 @@ function entry2html(entry, arxiv_vanity = false, bibtex = true)
 	    if (weblink.includes("arxiv")) {
 		// const regex_pdf = /[0-9\.]+\.pdf/;
                 var index = weblink.match(/[0-9\.]+\.pdf/);
-		if (index == null) {
-		    index = weblink.match(/[0-9\.]/);
-		}
 		if (index != null) {
 			index = index[0];
  			index = index.substr(0, index.length - 4)
+		} else {
+		    index = weblink.match(/[0-9\.]/);
+       		    if (index != null) {
+			index = index[0];
+ 		    }
+		}
+		if (index != null) {
  		        arxiv_vanity_html = "<a href = \"https://www.arxiv-vanity.com/papers/" +
 			                    index +
 			                    "/\">View this paper on arXiv-Vanity</a>";
