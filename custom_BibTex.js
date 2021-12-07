@@ -167,7 +167,7 @@ function entry2html(entry, arxiv_vanity = false, bibtex = true)
 			index_str = index[0];
  			index_str = index_str.substr(0, index_str.length - 4)
 		} else {
-		    index = weblink.match(/[0-9\.]+/);
+		    index = weblink.match(/[0-9][0-9][0-9][0-9]\.[0-9]+/);
        		    if (index != null) {
 			index_str = index[0];
  		    }
