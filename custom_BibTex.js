@@ -175,13 +175,9 @@ function entry2html(entry, arxiv_vanity = false, bibtex = true)
 		if (index_str != "") {
  		        arxiv_vanity_html = "<a href = \"https://www.arxiv-vanity.com/papers/" +
 			                    index_str +
-			                    "/\">View this paper on arXiv-Vanity</a>";
+			                    "/\">View this paper on arXiv-Vanity" + index_str + "!</a>";
 		}
-	    } else {
-	        arxiv_vanity_html = ""
 	    }
-    } else {
-        arxiv_vanity_html = ""
     }
 	
     ////////////////////////////////////////////////////////////////////////////////
