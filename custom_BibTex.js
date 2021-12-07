@@ -162,18 +162,19 @@ function entry2html(entry, arxiv_vanity = false, bibtex = true)
 	    if (weblink.includes("arxiv")) {
 		// const regex_pdf = /[0-9\.]+\.pdf/;
                 var index = weblink.match(/[0-9\.]+\.pdf/);
+		var index_str = ""
 		if (index != null) {
-			index = index[0];
- 			index = index.substr(0, index.length - 4)
+			index_str = index[0];
+ 			index_str = index.substr(0, index_str.length - 4)
 		} else {
 		    index = weblink.match(/[0-9\.]/);
        		    if (index != null) {
-			index = index[0];
+			index_str = index[0];
  		    }
 		}
-		if (index != null) {
+		if (index_str != "") {
  		        arxiv_vanity_html = "<a href = \"https://www.arxiv-vanity.com/papers/" +
-			                    index +
+			                    index_str +
 			                    "/\">View this paper on arXiv-Vanity</a>";
 		}
 	    } else {
