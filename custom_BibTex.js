@@ -165,7 +165,7 @@ function entry2html(entry, arxiv_vanity = false, bibtex = true)
 		var index_str = "";
 		if (index != null) {
 			index_str = index[0];
- 			index_str = index.substr(0, index_str.length - 4)
+ 			index_str = index_str.substr(0, index_str.length - 4)
 		} else {
 		    index = weblink.match(/[0-9\.]/);
        		    if (index != null) {
@@ -215,7 +215,7 @@ function entry2html(entry, arxiv_vanity = false, bibtex = true)
 	bibtex_button_html += "&nbsp;&nbsp;title = {{" + title + "}},<br>";
         if (entry['entryType'] == 'inproceedings') {
  	    var booktitle = extract(entry, 'booktitle')
-	    bibtex_button_html += "&nbsp;&nbsp;booktitle = {{In " + uniformize_venue(booktitle).replace(/<[^>]*>/g, '') + "}},<br>";
+	    bibtex_button_html += "&nbsp;&nbsp;booktitle = {{" + uniformize_venue(booktitle).replace(/<[^>]*>/g, '') + "}},<br>";
         } else if (entry['entryType'] == 'article') {
 	    var journal = extract(entry, 'journal')
 	    bibtex_button_html += "&nbsp;&nbsp;journal = {{" + uniformize_venue(journal).replace(/<[^>]*>/g, '') + "}},<br>";
