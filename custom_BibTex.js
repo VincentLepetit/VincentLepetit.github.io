@@ -293,46 +293,59 @@ function bibtex2html_BibTex(bibtex_entries)
     var ret = "";
 	
     for (var current_year = max_year; current_year >= min_year; current_year--) {
-	ret += "<h2>\n" + current_year.toString() + "</h2>\n";
 
-	ret += "<table id=\"publis\">\n";
-
+	var number_for_this_year = 0;
+	
 	for (var i=0; i<bibtex_entries.data.length; i++){
 	    var entry = bibtex_entries.data[i];
 	    var year = Number(extract(entry, 'year'));
 	    if (year == current_year) {
-		var img = extract(entry, 'img');
-		var weblink = extract(entry, 'weblink');
-		if (weblink == "") {
-		  weblink = extract(entry, 'pdf');
-		}
-		entry_html = entry2html(entry);
-		var anchor_html = "<a id=\"" + entry['cite'] + "\"></a>";		
-		ret += anchor_html;
-
-		ret += "<tr>\n";
-		if (img != '') {
-		    ret += "<td>";
-		    if (weblink != '') {
-			ret += "<a href = \"" + weblink + "\">";
-		    }
-		    ret += "<img alt = \"<missing>\" width = 300 src = \"" + image_root + "/" + img + "\" class = \"thumbnail\" ></img>";
-		    if (weblink != '') {
-			ret += "</a>";
-		    }
-		    ret += "</td><td>";
-		    ret += entry_html;			
-			
-		    ret += "</td></tr>\n";
-		} else {
-		    ret += "<td colspan=\"2\">";
-		    ret += entry_html;
-		    ret += "</td>";
-		}
-		ret += "</tr>\n";
+		number_for_this_year += 1;
 	    }
 	}
-	ret += "</table>\n";
+
+	if (number_for_this_year > 0 ) {
+	
+	    ret += "<h2>\n" + current_year.toString() + "</h2>\n";
+	    ret += "<table id=\"publis\">\n";
+
+	    for (var i=0; i<bibtex_entries.data.length; i++){
+		var entry = bibtex_entries.data[i];
+		var year = Number(extract(entry, 'year'));
+		if (year == current_year) {
+		    var img = extract(entry, 'img');
+		    var weblink = extract(entry, 'weblink');
+		    if (weblink == "") {
+			weblink = extract(entry, 'pdf');
+		    }
+		    entry_html = entry2html(entry);
+		    var anchor_html = "<a id=\"" + entry['cite'] + "\"></a>";		
+		    ret += anchor_html;
+
+		    ret += "<tr>\n";
+		    if (img != '') {
+			ret += "<td>";
+			if (weblink != '') {
+			    ret += "<a href = \"" + weblink + "\">";
+			}
+			ret += "<img alt = \"<missing>\" width = 300 src = \"" + image_root + "/" + img + "\" class = \"thumbnail\" ></img>";
+			if (weblink != '') {
+			    ret += "</a>";
+			}
+			ret += "</td><td>";
+			ret += entry_html;			
+			
+			ret += "</td></tr>\n";
+		    } else {
+			ret += "<td colspan=\"2\">";
+			ret += entry_html;
+			ret += "</td>";
+		    }
+		    ret += "</tr>\n";
+		}
+	    }
+	    ret += "</table>\n";
+	}
     }
 
     return ret;
