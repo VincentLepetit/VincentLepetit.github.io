@@ -1,6 +1,14 @@
 [
 
     {
+	"posting_date": "2021/12/10",
+	"initial_message": "Hugo successfully defended his PhD, congratulations!"
+	                   "And many thanks to the committee: Gabriela  Csurka, Ondrej Chum, Krystian Mikolajczyk,"
+                           "Torsten Sattler, Josef Sivic",
+	"removal_date": "2022/12/31"
+    },
+	
+    {
 	"posting_date": "2021/10/18",
 	"initial_message": "Yuming, together with Yang Xiao and Wen Gao (RobotLearn, Inria), won both tracks 1 and 2 at the <a href=\"https://sites.google.com/view/unidentified-video-object/home\">Unidentified Video Objects challenge</a>!",
 	"removal_date": "2022/10/01"
