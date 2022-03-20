@@ -29,7 +29,7 @@ My research focuses on 3D scene understanding. More exactly, I aim at reducing a
 [//]: <> (* [Van Nguyen Nguyen](https://imagine-lab.enpc.fr/staff-members/van-nguyen-nguyen/) )
 
 ### Former PhD students and postdocs
-
+* [Hugo Germain](https://www.hugogermain.com), Scientist at Apple Zurich;
 * [Giorgia Pitteri](https://www.linkedin.com/in/giorgia-pitteri-63218510b), Researcher at Robominds, Munich;
 * [Alexander Grabner](https://www.linkedin.com/in/alexander-grabner/), Scientist at Amazon Prime Air;
 * [Bugra Tekin](https://btekin.github.io/), Researcher at Microsoft Zurich;
