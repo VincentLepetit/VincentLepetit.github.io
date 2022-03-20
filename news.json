@@ -1,8 +1,22 @@
 [
 
+	
+    {
+	"posting_date": "2022/03/02",
+	"initial_message": "2 papers accepted at CVPR 2022.",
+	"removal_date": "2023/03/02"
+    },
+    
+    {
+	"posting_date": "2022/01/28",
+	"initial_message": "1 paper accepted at ICLR 2022 on <a href='https://arxiv.org/abs/2106.09711'>Hallucinating Visual Correspondences</a>. A very original work IMHO",
+	"removal_date": "2023/01/28"
+    },
+    
+	
     {
 	"posting_date": "2021/12/10",
-	"initial_message": "Hugo successfully defended his PhD, congratulations! And many thanks to the committee: Gabriela  Csurka, Ondrej Chum, Krystian Mikolajczyk, Torsten Sattler, and Josef Sivic",
+	"initial_message": "<a href='https://www.hugogermain.com'>Hugo</a> successfully defended his PhD, congratulations! And many thanks to the committee: Gabriela  Csurka, Ondrej Chum, Krystian Mikolajczyk, Torsten Sattler, and Josef Sivic.",
 	"removal_date": "2022/12/31"
     },
 	
