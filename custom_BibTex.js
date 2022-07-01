@@ -18,6 +18,7 @@ var expanded_venues = [
     "ICCV",  "Proceedings of the International Conference on Computer Vision (<b>ICCV</b>)",
     "ICCV Workshop", "do not expand",
     "ICCVW", "Workshop at the International Conference on Computer Vision (<b>ICCV Workshop</b>)",
+    "ICLR",  "Proceedings of the International Conference on Learning Representations (<b>ICLR</b>)",
     "IJCV",  "International Journal of Computer Vision (<b>IJCV</b>)",
     "ISMAR", "Proceedings of the International Symposium on Mixed and Augmented Reality (<b>ISMAR</b>)",
     "MICCAI", "Proceedings of the Conference on  Medical Image Computing and Computer Assisted Intervention (<b>MICCAI</b>)",
