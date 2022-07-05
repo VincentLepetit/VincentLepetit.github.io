@@ -2,8 +2,20 @@
 
 	
     {
+	"posting_date": "2022/07/02",
+	"initial_message": "I am an Area Chair for CVPR'22, ACCV'22, and 3DV'22.",
+	"removal_date": "2022/12/31"
+    },
+    
+    {
+	"posting_date": "2022/07/01",
+	"initial_message": "I am the Program Chair for <a href=https://caprfiap2022.sciencesconf.org>RFIAP 2022</a>.",
+	"removal_date": "2022/12/31"
+    },
+    
+    {
 	"posting_date": "2022/03/02",
-	"initial_message": "2 papers accepted at CVPR 2022.",
+	"initial_message": "2 papers accepted at CVPR 2022. One oral presentation on Transformers for 3D Hand and Object pose estimation in complex configurations (and a new 2 hands+object dataset) and 1 on 3D object pose estimation without learning. Congratulations Shreyas and Van Nguyen",
 	"removal_date": "2023/03/02"
     },
     
