@@ -13,6 +13,8 @@
 	"removal_date": "2022/12/31"
     },
     
+
+	
     {
 	"posting_date": "2022/03/02",
 	"initial_message": "2 papers accepted at CVPR 2022. One oral presentation on Transformers for 3D Hand and Object pose estimation in complex configurations (and a new 2 hands+object dataset) and 1 on 3D object pose estimation without learning. Congratulations Shreyas and Van Nguyen",
@@ -57,7 +59,7 @@
 	"message_after_date1": "I am an Area Chair for CVPR 2022.",
 	"date2": "2022/07/01",
 	"message_after_date2": "Area Chair for CVPR 2022.",
-	"removal_date": "2023/07/01"
+	"removal_date": "2022/07/01"
     },
 
     {
