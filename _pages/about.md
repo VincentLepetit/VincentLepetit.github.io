@@ -13,7 +13,7 @@ I am a researcher at ENPC ParisTech, France. I also supervise a research group a
 
 My research focuses on 3D scene understanding. More exactly, I aim at reducing as much as possible the guidance a system needs to learn new 3D objects and new 3D environments: How can we remove the need for training data for each new 3D problem? Currently, even self-supervised methods often require CAD models, which are not necessarily available for any type of object. This question has both theoretical implications and practical applications, as the need for training data, even synthetic, is often a deal breaker for non-academic problems.
 
-I received the Koenderick “test-of-time” award at the European Conference on Computer Vision 2020 for “Brief: Binary Robust Independent Elementary Features”. I serve as an area chair of the major computer vision conferences: CVPR (2011-2022), ICCV (2019-2021), ECCV (2010-2020), ACCV, BMVC) and as an editor for PAMI, IJCV, and CVIU.
+I received the Koenderick “test-of-time” award at the European Conference on Computer Vision 2020 for “Brief: Binary Robust Independent Elementary Features”. I often serve as an area chair of the major computer vision conferences: CVPR (2011-2022), ICCV (2019-2021), ECCV (2010-2020), ACCV, BMVC and as an editor for PAMI, IJCV, and CVIU.
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
