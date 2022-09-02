@@ -327,7 +327,7 @@ function bibtex2html_BibTex(bibtex_entries)
 		    if (img != '') {
 			ret += "<td>";
 			if (weblink != '') {
-			    ret += "<a href = \"" + pdfroot + weblink + "\">";
+			    ret += "<a href = \"" + pdf_root + weblink + "\">";
 			}
 			ret += "<img alt = \"<missing>\" width = 300 src = \"" + image_root + "/" + img + "\" class = \"thumbnail\" ></img>";
 			if (weblink != '') {
