@@ -322,9 +322,9 @@ function bibtex2html_BibTex(bibtex_entries)
 		    if (weblink != "") {
 			if (!weblink.includes("http")) {
 			    weblink = pdf_root + weblink;
+			    weblink = "pp"
 			}
 		    }
-		    weblink = "pp"
 		    entry_html = entry2html(entry);
 		    var anchor_html = "<a id=\"" + entry['cite'] + "\"></a>";		
 		    ret += anchor_html;
