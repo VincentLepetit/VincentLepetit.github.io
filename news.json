@@ -2,9 +2,9 @@
 	
     {
 	"posting_date": "2022/09/02",
-	"initial_message": "I will have the pleasure to give a talk at 3DV 2022.",
+	"initial_message": "I will have the pleasure to give a talk at <a href='https://3dvconf.github.io/2022/'>3DV 2022</a>.",
 	"date1": "2022/09/20",
-	"message_after_date1": "Keynote at 3DV 2022.",
+	"message_after_date1": "Keynote at <a href='https://3dvconf.github.io/2022/'>3DV 2022</a>.",
 	"removal_date": "2023/09/01"
     },
     
