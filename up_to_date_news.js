@@ -15,22 +15,23 @@ function news2html_js(news)
     for(var i = 0; i < news.length; i++) {
 	if (news[i]["removal_date"] > today) {
 	    var message_html = "no_message";
+	    var beg = "<span class=\"news_message\"> <b>" + news[i]["posting_date"] + "</b>: ";
 	    if (news[i]["date1"] != undefined) {
 		if (news[i]["date1"] > today) {		
-		    message_html = "<span class=\"news_message\">" + news[i]["initial_message"] + "</span>";
+		    message_html = beg + news[i]["initial_message"] + "</span>";
 		} else {
 		    if (news[i]["date2"] != undefined) {
 			if (news[i]["date2"] > today) {		
-			    message_html = "<span class=\"news_message\">" + news[i]["message_after_date1"] + "</span>";
+			    message_html = beg + news[i]["message_after_date1"] + "</span>";
 			} else {
-			    message_html = "<span class=\"news_message\">" + news[i]["message_after_date2"] + "</span>";
+			    message_html = beg + news[i]["message_after_date2"] + "</span>";
 			}
 		    } else {
-			message_html = "<span class=\"news_message\">" + news[i]["message_after_date1"] + "</span>";
+			message_html = beg + news[i]["message_after_date1"] + "</span>";
 		    }		    
 		}
 	    } else {
-		message_html = "<span class=\"news_message\">" + news[i]["initial_message"] + "</span>";
+		message_html = beg + news[i]["initial_message"] + "</span>";
 	    }
 	    
 	    ret += "<li>" + message_html + "</li>";
