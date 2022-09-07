@@ -35,7 +35,8 @@ function news2html_js(news)
 	    }
 	    
 	    // ret += "<li>" + message_html + "</li>";
-	    ret += "" + message_html + "<br/>";
+	    // ret += "" + message_html + "<br/>";
+	    ret += "<p>" + message_html + "</p>";
 	    
 	    no_news = 0;
 	}
