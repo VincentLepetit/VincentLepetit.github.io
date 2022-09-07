@@ -10,7 +10,7 @@
     
     {
 	"posting_date": "2022/09/01",
-	"initial_message": "1 paper accepted at ECCV 2022 on the <a href='https://arxiv.org/abs/2207.14268'>continuation of our work with MCTS</a> for 3D scene understanding.",
+	"initial_message": "1 paper accepted at ECCV 2022 on the <a href='https://arxiv.org/abs/2207.14268'>continuation of our work with MCTS</a> for 3D scene understanding. Congratulations, Michael and Sinisa!",
 	"removal_date": "2023/09/01"
     },
     
@@ -35,7 +35,7 @@
 	
     {
 	"posting_date": "2022/03/02",
-	"initial_message": "2 papers accepted at CVPR 2022. One oral presentation on Transformers for 3D Hand and Object pose estimation in complex configurations (and a new 2 hands+object dataset) and 1 on 3D object pose estimation without learning. Congratulations Shreyas and Van Nguyen",
+	"initial_message": "2 papers accepted at CVPR 2022. One oral presentation on Transformers for 3D Hand and Object pose estimation in complex configurations (and a new 2 hands+object dataset) and 1 on 3D object pose estimation without learning. Congratulations, Shreyas and Van Nguyen!",
 	"removal_date": "2023/03/02"
     },
     
