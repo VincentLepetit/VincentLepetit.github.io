@@ -9,7 +9,8 @@ function news2html_js(news)
     var yyyy = today.getFullYear();
     today = yyyy + '/' + mm + '/' + dd;
 
-    var ret = "<p><ul>";
+    // var ret = "<p><ul>";
+    var ret = "<ul>";
 
     var no_news = 1;
     for(var i = 0; i < news.length; i++) {
@@ -45,7 +46,8 @@ function news2html_js(news)
     if (no_news == 1) {
 	return "";
     } else {
-	ret += "</ul></p>"
+	// ret += "</ul></p>"
+	ret += ""
 	ret = "<h3>News</h3>" + ret;
 
 	return ret;
