@@ -9,6 +9,12 @@
     },
     
     {
+	"posting_date": "2022/09/15",
+	"initial_message": "Paper on Next Best View prediction accepted at NeurIPS! Congratulations Antoine.",
+	"removal_date": "2023/09/01"
+    },
+    
+    {
 	"posting_date": "2022/09/01",
 	"initial_message": "1 paper accepted at ECCV 2022 on the <a href='https://arxiv.org/abs/2207.14268'>continuation of our work with MCTS</a> for 3D scene understanding. Congratulations, Michael and Sinisa!",
 	"removal_date": "2023/09/01"
