@@ -17,8 +17,6 @@ function process_news(news)
 	    var date_val = "";
 	    var message_val = "";
 
-
-
 	    var beg = "<span class=\"news_message\"> <b>" + news[i]["posting_date"] + "</b>: ";
 	    if (news[i]["date1"] != undefined) {
 		if (news[i]["date1"] > today) {
@@ -28,14 +26,14 @@ function process_news(news)
 		    if (news[i]["date2"] != undefined) {
 			if (news[i]["date2"] > today) {
 			    date_val = news[i]["date1"];
-			    message_val = "message_after_date1"
+			    message_val = news[i]["message_after_date1"];
 			} else {
 			    date_val = news[i]["date1"];
 			    message_val = news[i]["message_after_date2"];
 			}
 		    } else {
 			date_val = news[i]["date1"];
-			message_val = "message_after_date1"
+			message_val = news[i]["message_after_date1"];
 		    }		    
 		}
 	    } else {
@@ -51,7 +49,7 @@ function process_news(news)
     }
 
     ret.sort(function (e1, e2) {
-	return e1.date > e2.date;
+	return e1.date < e2.date;
     });
     
     return ret;
