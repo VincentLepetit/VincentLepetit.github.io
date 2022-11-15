@@ -23,7 +23,8 @@ var expanded_venues = [
     "IROS",  "International Conference on Intelligent Robots and Systems (<b>IROS</b>)",
     "ISMAR", "Proceedings of the International Symposium on Mixed and Augmented Reality (<b>ISMAR</b>)",
     "MICCAI", "Proceedings of the Conference on  Medical Image Computing and Computer Assisted Intervention (<b>MICCAI</b>)",
-    "NIPS",  "Advances in Neural Information Processing Systems (<b>NIPS</b>)",
+    "NIPS",  "Advances in Neural Information Processing Systems (<b>NeurIPS</b>)",
+    "NeurIPS",  "Advances in Neural Information Processing Systems (<b>NeurIPS</b>)",
     "PAMI",  "IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>PAMI</b>)",
     "VR",    "Proceedings of the IEEE Virtual Reality Conference (<b>VR</b>)",
     "WACV",  "IEEE Winter Conference on Applications of Computer Vision (<b>WACV</b>)"
