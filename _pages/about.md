@@ -30,6 +30,9 @@ I received the Koenderick “test-of-time” award at the European Conference on
 [//]: <> (* [Van Nguyen Nguyen](https://imagine-lab.enpc.fr/staff-members/van-nguyen-nguyen/) )
 
 ### Former PhD students and postdocs
+* [Shreyas Hampali](https://shreyashampali.github.io), Scientist at Meta Zurich;
+* [Michael Ramamonjisoa](https://michaelramamonjisoa.github.io), Research Engineer at Meta AI;
+* [Mahdi Rad](https://radmahdi.github.io/Home.html), Scientist at Microsoft Zurich;
 * [Hugo Germain](https://www.hugogermain.com), Scientist at Apple Zurich;
 * [Giorgia Pitteri](https://www.linkedin.com/in/giorgia-pitteri-63218510b), Researcher at Robominds, Munich;
 * [Alexander Grabner](https://www.linkedin.com/in/alexander-grabner/), Scientist at Amazon Prime Air;
