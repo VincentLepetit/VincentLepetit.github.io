@@ -36,7 +36,7 @@ I received the Koenderick “test-of-time” award at the European Conference on
 * [Hugo Germain](https://www.hugogermain.com), Scientist at Apple Zurich;
 * [Giorgia Pitteri](https://www.linkedin.com/in/giorgia-pitteri-63218510b), Researcher at Robominds, Munich;
 * [Alexander Grabner](https://www.linkedin.com/in/alexander-grabner/), Scientist at Amazon Prime Air;
-* [Bugra Tekin](https://btekin.github.io/), Researcher at Microsoft Zurich;
+* [Bugra Tekin](https://btekin.github.io/), Researcher at Meta Zurich;
 * [Kwang Moo Yi](https://www.cs.ubc.ca/~kmyi/), Assistant Professor at the University of British Columbia.
 * [Anil Armagan](https://sites.google.com/view/anilarmagan/), Research Associate at Huawei Noah's Ark London;
 * [Markus Oberweger](https://moberweger.github.io/), Researcher at Naked Labs, Graz;
