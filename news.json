@@ -1,6 +1,12 @@
 [
 	
     {
+	"posting_date": "2022/11/22",
+	"initial_message": "Michael successfully defended his PhD on monocular depth prediction! Thanks a lot to the committee: Raoul de Charette, Janne Heikkila, Anelia Anglova, and Ren&eacute; Ranftl.",
+	"removal_date": "2023/11/21"
+    },
+    
+    {
 	"posting_date": "2022/10/20",
 	"initial_message": "I will give a talk at the <a href='https://cmp.felk.cvut.cz/sixd/workshop_2022/'>Workshop on Recovering 6D Object Pose</a> and at the <a href='https://sites.google.com/view/egocentric-hand-body-activity/home'>Human Body, Hands, and Activities from Egocentric and Multi-view Cameras Workshop</a> at ECCV 2022.",
 	"date1": "2022/10/24",
