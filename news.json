@@ -1,6 +1,12 @@
 [
 	
     {
+	"posting_date": "2022/12/12",
+	"initial_message": "Phillipe also defended successfully his PhD on keypoint detection with envent-based cameras! Thanks a lot to the committee: Guillermo Gallego, Franck Davoine, Cornelia Fermuller, and Arros Glover.",
+	"removal_date": "2023/12/12"
+    },
+    
+    {
 	"posting_date": "2022/11/22",
 	"initial_message": "Michael successfully defended his PhD on monocular depth prediction! Thanks a lot to the committee: Raoul de Charette, Janne Heikkila, Anelia Angelova, and Ren&eacute; Ranftl.",
 	"removal_date": "2023/11/21"
@@ -16,7 +22,7 @@
     
     {
 	"posting_date": "2022/09/15",
-	"initial_message": "Paper on Next Best View prediction accepted at NeurIPS! Congratulations Antoine.",
+	"initial_message": "Paper on Next Best View prediction accepted at NeurIPS as a Spotlight! Congratulations Antoine.",
 	"removal_date": "2023/09/01"
     },
     
