@@ -1,6 +1,24 @@
 [
 	
     {
+	"posting_date": "2023/03/31",
+	"initial_message": "Woohoo, my ERC Advanced grant has been accepted! If you are a talented student interested in doing a PhD or a postdoc on combining computer vision and robotics, don't hesitate to contact me",
+	"removal_date": "2024/03/01"
+    },
+    
+    {
+	"posting_date": "2023/03/08",
+	"initial_message": "I am an Area Chair for CVPR'23, ICCV'23, and NeurIPS'23.",
+	"removal_date": "2024/03/01"
+    },
+    
+    {
+	"posting_date": "2023/02/24",
+	"initial_message": "Two papers accepted at CVPR - Congratulations (again) Antoine and Shreyas.",
+	"removal_date": "2024/02/01"
+    },
+    
+    {
 	"posting_date": "2022/12/12",
 	"initial_message": "Phillipe also defended successfully his PhD on keypoint detection with event-based cameras! Thanks a lot to the committee: Guillermo Gallego, Franck Davoine, Cornelia Fermuller, and Arros Glover.",
 	"removal_date": "2023/12/12"
