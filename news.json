@@ -1,6 +1,12 @@
 [
 	
     {
+	"posting_date": "2023/05/26",
+	"initial_message": "the 8th <a href=http://cmp.felk.cvut.cz/sixd/workshop_2023/>International Workshop on Recovering 6D Object Pose (R6D)</a>",
+	"removal_date": "2024/05/25"
+    },
+    
+    {
 	"posting_date": "2023/03/31",
 	"initial_message": "Woohoo, my ERC Advanced grant has just been accepted! If you are a talented student interested in doing a PhD or a postdoc on joining computer vision and robotics for exploring and understanding complex scenes, don't hesitate to contact me.",
 	"removal_date": "2024/03/01"
