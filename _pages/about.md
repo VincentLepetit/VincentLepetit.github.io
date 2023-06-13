@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a researcher at ENPC ParisTech, France. Before that, I was a full professor at the Institute for Computer Graphics and Vision, TU Graz, and before that, a senior researcher at CVLab, EPFL, Switzerland.
+I am a professor at ENPC ParisTech, France. Before that, I was a full professor at the Institute for Computer Graphics and Vision, TU Graz, and before that, a senior researcher at CVLab, EPFL, Switzerland.
 
 
 My research focuses on 3D scene understanding. More exactly, I aim at reducing as much as possible the guidance a system needs to learn new 3D objects and new 3D environments: How can we remove the need for training data for each new 3D problem? Currently, even self-supervised methods often require CAD models, which are not necessarily available for any type of object. This question has both theoretical implications and practical applications, as the need for training data, even synthetic, is often a deal breaker for non-academic problems.
@@ -31,6 +31,7 @@ I received the Koenderick “test-of-time” award at the European Conference on
 
 ### Former PhD students and postdocs
 * [Shreyas Hampali](https://shreyashampali.github.io), Scientist at Meta Zurich;
+* [Philippe Chiberre](https://www.linkedin.com/in/philippe-chiberre-99b27b102/?originalSubdomain=fr), Senior Computer Vision and Machine Learning Researcher at Lynx Mixed Reality;
 * [Michael Ramamonjisoa](https://michaelramamonjisoa.github.io), Research Engineer at Meta AI;
 * [Mahdi Rad](https://radmahdi.github.io/Home.html), Scientist at Microsoft Zurich;
 * [Hugo Germain](https://www.hugogermain.com), Scientist at Apple Zurich;
