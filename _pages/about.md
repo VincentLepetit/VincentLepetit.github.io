@@ -46,7 +46,7 @@ I received the Koenderick “test-of-time” award at the European Conference on
 * [Amos Sironi](https://www.linkedin.com/in/amos-sironi/), Researcher at Prophesee, Paris;
 * [Alberto Crivellaro](https://www.linkedin.com/in/alberto-crivellaro-182b4a56/), S&H, Lombardy;
 * [Kevin Smith](https://www.kth.se/profile/ksmith), Associate Professor at KTH, Stockholm;
-* [Tomasz Trzcinski](http://ii.pw.edu.pl/~ttrzcins/index-en.html), Assistant Professor at Warsaw University and CEO at comexifi.ai;
+* [Tomasz Trzcinski](http://staff.ii.pw.edu.pl/~ttrzcins/), Associate Professor at Warsaw University and CEO at comexifi.ai;
 * [Julien Pilet](https://www.linkedin.com/in/julienpilet/), Founder of anemomind and opticode, Lausanne;
 * [Mustafa Özuysal](http://web.iyte.edu.tr/~mustafaozuysal/), Assistant Professor at the Izmir Institute of Technology;
 * [Ali Shahrokni](https://www.linkedin.com/in/ali-shaw-rockney-shahrokni-4874093a/), Senior Researcher at MagicLeap, Mountain View;
