@@ -1,9 +1,20 @@
 %
+% Usage:
+%
+% \addeditor{vincent}{VL}{0.0, 0.5, 0.0}
+% \showeditstrue
+%
 % Examples:
 %
 % \addeditor{vincent}{VL}{0.0, 0.5, 0.0}
 % adds the following commands:
 % \vincent{text}, \vincentrmk{remark}, and \vincentrpl{newtext}{oldtext}
+%
+% then, use:
+% \showeditstrue
+% to show the edits, and:
+% \showeditsfalse
+% for the final version.
 
 
 % \textvars{pose,rot}
@@ -26,6 +37,7 @@
 
 \usepackage{dsfont}
 \usepackage{etoolbox}
+\usepackage{color}
 
 
 \newif\ifshowedits

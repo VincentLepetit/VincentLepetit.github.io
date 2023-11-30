@@ -1,8 +1,22 @@
 [
 	
     {
+	"posting_date": "2023/10/01",
+	"initial_message": "I will be an Program Chair for CVPR 2025.",
+	"date1": "2024/09/01",
+	"message_after_date1": "Program Chair for CVPR 2025.",
+	"removal_date": "2025/09/01"
+    },
+
+    {
+	"posting_date": "2023/07/14",
+	"initial_message": "One paper accepted at CVPR - Congratulations Nermin! (and all Valeo people :) )",
+	"removal_date": "2024/07/14"
+    },
+    
+    {
 	"posting_date": "2023/05/26",
-	"initial_message": "the 8th <a href=http://cmp.felk.cvut.cz/sixd/workshop_2023/>International Workshop on Recovering 6D Object Pose (R6D)</a>",
+	"initial_message": "8th <a href=http://cmp.felk.cvut.cz/sixd/workshop_2023/>International Workshop on Recovering 6D Object Pose (R6D)</a> at ICCV 2023",
 	"removal_date": "2024/05/25"
     },
     
