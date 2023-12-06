@@ -9,8 +9,14 @@
     },
 
     {
+	"posting_date": "2023/10/03",
+	"initial_message": "We just made available very accurate annotations for the ScanNet dataset: <a href='https://github.com/stefan-ainetter/SCANnotateDataset'>project website</a>",
+	"removal_date": "2024/12/31"
+    },
+    
+    {
 	"posting_date": "2023/07/14",
-	"initial_message": "One paper accepted at CVPR - Congratulations Nermin! (and all Valeo people :) )",
+	"initial_message": "One paper accepted at ICCV - Congratulations Nermin! (and all Valeo people :) )",
 	"removal_date": "2024/07/14"
     },
     
