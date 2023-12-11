@@ -1,6 +1,12 @@
 [
 	
     {
+	"posting_date": "2023/10/03",
+	"initial_message": "The <a href='https://github.com/nv-nguyen/cnos'>CNOS method by Nguyen</a> obtained the best result for detecting unseen objects at the <a href='https://bop.felk.cvut.cz/challenges/'>BOP challenge (ICCV'23)</a>.",
+	"removal_date": "2024/12/31"
+    },
+
+    {
 	"posting_date": "2023/10/01",
 	"initial_message": "I will be an Program Chair for CVPR 2025.",
 	"date1": "2024/09/01",
