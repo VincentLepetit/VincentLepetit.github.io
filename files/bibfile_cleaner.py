@@ -8,14 +8,12 @@
 
 import cProfile
 
-# import getopt, sys
 import sys
 import argparse
 import copy
 import re
 import datetime
 from functools import cmp_to_key
-# from parse import *
 
 
 strings_for_journals = {
@@ -2106,15 +2104,15 @@ class BibfileSaver:
 ################################################################################
 
 parser = argparse.ArgumentParser(description="bibfile cleaner")
-parser.add_argument("-a", "--abbrev", action="store_true", help="abbreviate first names")
+parser.add_argument("-a", "--abbrev", action="store_true", help="abbreviate authors' first names")
 parser.add_argument("-d", "--debug", action="store_true", help="debugging mode")
-parser.add_argument("-f", "--firstnames", action="store_true", help="tries to retrieve first names")
-parser.add_argument("-k", "--build_keys", action="store_true", help="change bibfile keys with predefined format")
+parser.add_argument("-f", "--firstnames", action="store_true", help="tries to retrieve authors' first names")
+parser.add_argument("-k", "--build_keys", action="store_true", help="change bibfile keys to an Overleaf completion-friendly format [firstauthorslastname-venueyear-keyword]. Type what you remember from the paper, Overleaf shortlists the possible papers.")
 parser.add_argument("-n", "--noids", action="store_true", help="do not save the ids field")
 parser.add_argument("-o", "--output_bibfile", nargs=1, help="output file name")
 parser.add_argument("-p", "--remove_pages_and_pointless_stuff", action="store_true", help="remove page numbers")
-parser.add_argument("-l", "--use_long_strings", action="store_true", help="use long strings")
-parser.add_argument("-s", "--use_short_strings", action="store_true", help="use short strings")
+parser.add_argument("-l", "--use_long_strings", action="store_true", help="define long strings for the venues")
+parser.add_argument("-s", "--use_short_strings", action="store_true", help="define short strings for the venues")
 parser.add_argument("-u", "--remove_unused_strings", action="store_true", help="remove unused strings")
 parser.add_argument("-v", "--verbose", action="store_true", help="verbose mode")
 parser.add_argument("-w", "--overwrite_keys", action="store_true", help="rebuild all the bibfile keys")
