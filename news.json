@@ -2,13 +2,13 @@
 	
     {
 	"posting_date": "2024/04/16",
-	"initial_message": "PyTorchGeoNodes: I am very proud of this work by Sinisa and Stefan on procedural modeling from images. Basically, we introduce a differentiable PyTorch module for procedural modeling and a continuous/discrete optimization method to recover the parameters for procedural modeling from images: <a href=https://vevenom.github.io/pytorchgeonodes/>Project</a>",
+	"initial_message": "PyTorchGeoNodes: I am very proud of this work by Sinisa and Stefan on procedural modeling from images. Basically, we introduce a differentiable PyTorch module for procedural modeling and a continuous/discrete optimization method to recover the parameters for procedural modeling from images: <a href=https://vevenom.github.io/pytorchgeonodes/>Project</a>.",
 	"removal_date": "2025/04/16"
     },
 
     {
 	"posting_date": "2024/04/04",
-	"initial_message": "3 papers accepted at CVPR'24:  <a href=https://github.com/nv-nguyen/gigaPose>GigaPose</a> and <a href=https://nv-nguyen.github.io/nope/>NOPE</a> (that's 2 papers as first author for NGuyen!)  on fast learning for 3D pose prediction of new objects, and <a href=https://anttwo.github.io/sugar/>Sugar</a> for extracting nice meshes from Gaussian by Antoine",
+	"initial_message": "3 papers accepted at CVPR'24:  <a href=https://github.com/nv-nguyen/gigaPose>GigaPose</a> and <a href=https://nv-nguyen.github.io/nope/>NOPE</a> (that's 2 papers as first author for NGuyen!)  on fast learning for 3D pose prediction of new objects, and <a href=https://anttwo.github.io/sugar/>Sugar</a> for extracting from Gaussians nice meshes that you can e.g. animate by Antoine.",
 	"removal_date": "2025/04/01"
     },
 
