@@ -7,7 +7,7 @@ pdf_root   = "https://vincentlepetit.github.io/"
 
 
 var expanded_venues = [
-    "3DV",   "International Conference on 3D Vision",
+    "3DV",   "International Conference on 3D Vision (<b>3DV</b>)",
     "ACCV",  "Proceedings of the Asian Conference on Computer Vision (<b>ACCV</b>)",
     "arXiv", "arXiv",
     "ARXIV", "arXiv",
