@@ -31,7 +31,8 @@ I received the Koenderick “test-of-time” award at the European Conference on
 
 ### Former PhD students and postdocs
 * [Nermin Samet](https://nerminsamet.github.io), Scientist at Valeo.ai;
-* [Shreyas Hampali](https://shreyashampali.github.io), Scientist at Meta Zurich;
+* [Yuming Du](https://dulucas.github.io), Research Scientist at ... Meta Zurich;
+* [Shreyas Hampali](https://shreyashampali.github.io), Research Scientist at Meta Zurich;
 * [Philippe Chiberre](https://www.linkedin.com/in/philippe-chiberre-99b27b102/?originalSubdomain=fr), Senior Computer Vision and Machine Learning Researcher at Lynx Mixed Reality;
 * [Michael Ramamonjisoa](https://michaelramamonjisoa.github.io), Research Engineer at Meta AI;
 * [Mahdi Rad](https://radmahdi.github.io/Home.html), Scientist at Microsoft Zurich;
