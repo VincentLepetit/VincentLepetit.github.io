@@ -2,7 +2,7 @@
 	
     {
 	"posting_date": "2024/04/16",
-	"initial_message": "PyTorchGeoNodes: I am very proud of this work by Sinisa and Stefan on procedural modeling from images. Basically, we introduce a differentiable PyTorch module for procedural modeling and a continuous/discrete optimization method to recover the parameters for procedural modeling from images: <a href=https://vevenom.github.io/pytorchgeonodes/>Project</a>.",
+	"initial_message": "PyTorchGeoNodes: I am very proud of this work by Sinisa and Stefan on procedural modeling from images. Basically, we introduce a differentiable PyTorch module for procedural modeling and a continuous+discrete optimization method to recover the parameters for procedural modeling from images: <a href=https://vevenom.github.io/pytorchgeonodes/>Project</a>.",
 	"removal_date": "2025/04/16"
     },
 
@@ -13,9 +13,9 @@
     },
 
     {
-	"posting_date": "2024/01/01",
+	"posting_date": "1024/01/01",
 	"initial_message": "We are proposing a Master project with Renaud Marlet on <a href='https://docs.google.com/document/d/1rPphB50Uhtf5-MkZd9FQcuFkJdWiSTG92JQ6EhNIcGE/edit#heading=h.lwv0a1d0p5xt'>Unsupervised object discovery in 3D</a>. Send an <a href='mailto:renaud.marlet@enpc.fr, vincent.lepetit@enpc.fr'>email</a> to Renaud and me if you are interested.",
-	"removal_date": "2024/08/01"
+	"removal_date": "1024/08/01"
     },
 
     {
@@ -26,7 +26,7 @@
 
     {
 	"posting_date": "2023/10/01",
-	"initial_message": "I will be a Program Chair for CVPR 2025.",
+	"initial_message": "I will be a Program Chair for CVPR 2025. Gloups",
 	"date1": "2024/09/01",
 	"message_after_date1": "Program Chair for CVPR 2025.",
 	"removal_date": "2025/09/01"
