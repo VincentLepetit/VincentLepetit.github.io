@@ -30,6 +30,8 @@ I received the Koenderick “test-of-time” award at the European Conference on
 [//]: <> (* [Van Nguyen Nguyen](https://imagine-lab.enpc.fr/staff-members/van-nguyen-nguyen/) )
 
 ### Former PhD students and postdocs
+* [Corentin Sautier](https://csautier.github.io), Research Scientist at Mistral;
+* [Van Nguyen Nguyen](https://nv-nguyen.github.io), Research Scientist at United Imaging Intelligence;
 * [Nermin Samet](https://nerminsamet.github.io), Scientist at Valeo.ai;
 * [Yuming Du](https://dulucas.github.io), Research Scientist at ... Meta Zurich;
 * [Shreyas Hampali](https://shreyashampali.github.io), Research Scientist at Meta Zurich;
