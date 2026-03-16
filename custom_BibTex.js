@@ -194,11 +194,12 @@ function entry2html(entry, arxiv_vanity = false, bibtex = true)
         } else if (entry['entryType'] == 'article') {
 	    venue = extract(entry, 'journal')
 	}
-	if (venue.length > 0 && venue.length <= 5) {
-	    paper_tag = entry['author'][0]['last'].replace(/^[^ ]+ /, '') + "_" + venue + extract(entry, 'year').substring(2,4);
-	} else {
-	    paper_tag = entry['author'][0]['last'].replace(/^[^ ]+ /, '') + extract(entry, 'year').substring(2,4);		
-	}
+	//if (venue.length > 0 && venue.length <= 5) {
+	//    paper_tag = entry['author'][0]['last'].replace(/^[^ ]+ /, '') + "_" + venue + extract(entry, 'year').substring(2,4);
+	//} else {
+	//    paper_tag = entry['author'][0]['last'].replace(/^[^ ]+ /, '') + extract(entry, 'year').substring(2,4);		
+	//}
+	paper_tag = entry['cite']
 	authors = "";
 	if (array_key_exists('author', entry)) {
     	    var N = entry['author'].length;
