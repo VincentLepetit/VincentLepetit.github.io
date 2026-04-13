@@ -13,7 +13,7 @@ I am a professor at Ecole Nationale des Ponts et Chaussées, France. Before that
 
 My research focuses on 3D scene understanding. More exactly, I aim at reducing as much as possible the guidance a system needs to learn new 3D objects and new 3D environments: How can we remove the need for training data for each new 3D problem? Currently, even self-supervised methods often require CAD models, which are not necessarily available for any type of object. This question has both theoretical implications and practical applications, as the need for training data, even synthetic, is often a deal breaker for non-academic problems.
 
-I received the Koenderick “test-of-time” award at the European Conference on Computer Vision 2020 for “Brief: Binary Robust Independent Elementary Features”. I often serve as an area chair of the major computer vision conferences: CVPR, ICCV, ECCV, ACCV, BMVC and as an editor for PAMI.
+I received the Koenderick “test-of-time” award at the European Conference on Computer Vision 2020 for “Brief: Binary Robust Independent Elementary Features”. I often serve as an area chair of the major computer vision and machine learning conferences: CVPR, ICCV, ECCV, ICLR, ICML, NeurIPS.  I was one of the 6 Program Chairs for CVPR 2025. 
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
