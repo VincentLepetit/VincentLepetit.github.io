@@ -317,7 +317,11 @@
             for (let i = 0; i < currentWord.sounds.length; i++) {
                 ph += currentWord.sounds[i];
             }
-            synth.speak(ph);            
+            // if (synth.speaking) synth.cancel();
+            const utter_ph = new SpeechSynthesisUtterance(ph);
+            utter_ph.lang = 'en-US';
+            utter_ph.rate = 0.75;
+            synth.speak(utter_ph);
         }
 
         function showFeedback(msg, colorClass = "text-white") {
