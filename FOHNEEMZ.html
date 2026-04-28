@@ -30,7 +30,7 @@
     <div class="max-w-4xl w-full bg-slate-800 rounded-3xl p-6 shadow-2xl border border-slate-700">
         <header class="text-center mb-8">
             <h1 class="text-3xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
-                Phoneme Master
+                Phoneme Master 1
             </h1>
             <p class="text-slate-400 text-sm mt-2">Listen to the word and select the sounds in order.</p>
         </header>
@@ -96,34 +96,30 @@
         ];
 
         const dictionary = [
-            // { word: 'bed',  sounds: ['B', 'EH', 'D'] },
-            // { word: 'blue', sounds: ['B', 'L', 'OO'] },
-            // { word: 'boat', sounds: ['B', 'OH', 'T'] },
-            // { word: 'boy',  sounds: ['B', 'OY'] },
-            // { word: 'brush', sounds: ['B', 'R', 'UH', 'SH'] },
-            { word: 'BRUHSH', sounds: ['B', 'R', 'UH', 'SH'] },
-            // { word: 'cake', sounds: ['K', 'EY', 'K'] },
-            // { word: 'cat',  sounds: ['K', 'AA', 'T'] },
-            // { word: 'chip', sounds: ['CH', 'IH', 'P'] },
-            // { word: 'cup',  sounds: ['K', 'UH', 'P'] },
-            // { word: 'can\'t',  sounds: ['K', 'AA', 'N', 'T'] },            
-            // { word: 'cloud', sounds: ['K', 'L', 'OW', 'D'] },
-            // { word: 'dog',  sounds: ['D', 'AH', 'G'] },
-            // { word: 'duck', sounds: ['D', 'UH', 'K'] },
-            // { word: 'fish', sounds: ['F', 'IH', 'SH'] },
-            // { word: 'frog', sounds: ['F', 'R', 'AH', 'G'] },
-            // { word: 'king', sounds: ['K', 'IH', 'NG'] },
-            // { word: 'kitchen', sounds: ['K', 'IH', 'CH', 'IH', 'N'] },
-            { word: 'KIHCHIHN', sounds: ['K', 'IH', 'CH', 'IH', 'N'] },
-            { word: 'LAAMP', sounds: ['L', 'AA', 'M', 'P'] },
-            { word: 'LaiT', sounds: ['L', 'ai', 'T'] }
-            // { word: 'lamp', sounds: ['L', 'AA', 'M', 'P'] },
-            // { word: 'light', sounds: ['L', 'ai', 'T'] },
-            // { word: 'pig',  sounds: ['P', 'IH', 'G'] },
-            // { word: 'seek', sounds: ['S', 'EE', 'K'] },
-            // { word: 'ship', sounds: ['SH', 'IH', 'P'] },
-            // { word: 'sing', sounds: ['S', 'IH', 'NG'] },
-            // { word: 'stay', sounds: ['S', 'T', 'EY'] },
+            { word: 'bed',  sounds: ['B', 'EH', 'D'] },
+            { word: 'blue', sounds: ['B', 'L', 'OO'] },
+            { word: 'boat', sounds: ['B', 'OH', 'T'] },
+            { word: 'boy',  sounds: ['B', 'OY'] },
+            { word: 'brush', sounds: ['B', 'R', 'UH', 'SH'] },
+            { word: 'cake', sounds: ['K', 'EY', 'K'] },
+            { word: 'cat',  sounds: ['K', 'AA', 'T'] },
+            { word: 'chip', sounds: ['CH', 'IH', 'P'] },
+            { word: 'cup',  sounds: ['K', 'UH', 'P'] },
+            { word: 'can\'t',  sounds: ['K', 'AA', 'N', 'T'] },            
+            { word: 'cloud', sounds: ['K', 'L', 'OW', 'D'] },
+            { word: 'dog',  sounds: ['D', 'AH', 'G'] },
+            { word: 'duck', sounds: ['D', 'UH', 'K'] },
+            { word: 'fish', sounds: ['F', 'IH', 'SH'] },
+            { word: 'frog', sounds: ['F', 'R', 'AH', 'G'] },
+            { word: 'king', sounds: ['K', 'IH', 'NG'] },
+            { word: 'kitchen', sounds: ['K', 'IH', 'CH', 'IH', 'N'] },
+            { word: 'lamp', sounds: ['L', 'AA', 'M', 'P'] },
+            { word: 'light', sounds: ['L', 'ai', 'T'] },
+            { word: 'pig',  sounds: ['P', 'IH', 'G'] },
+            { word: 'seek', sounds: ['S', 'EE', 'K'] },
+            { word: 'ship', sounds: ['SH', 'IH', 'P'] },
+            { word: 'sing', sounds: ['S', 'IH', 'NG'] },
+            { word: 'stay', sounds: ['S', 'T', 'EY'] }
             // { word: 'think', sounds: ['th', 'IH', 'NG', 'K'] },
             // { word: 'this', sounds: ['TH', 'IH', 'S'] }
             // { word: 'bird', sounds: ['B', 'ER', 'D'] },
@@ -224,9 +220,9 @@
 
          function playCorrectSound() {
             if (synth.speaking) synth.cancel();
-            const utter = new SpeechSynthesisUtterance("Ding!");
-            utter.pitch = 2;
-            utter.rate = 2;
+            const utter = new SpeechSynthesisUtterance("good!");
+            utter.pitch = 1;
+            utter.rate = 1;
             utter.volume = 0.5;
             synth.speak(utter);
         }
@@ -234,8 +230,8 @@
         function playWrongSound() {
             if (synth.speaking) synth.cancel();
             const utter = new SpeechSynthesisUtterance("Uh-oh.");
-            utter.pitch = 0.5;
-            utter.rate = 1.5;
+            utter.pitch = 1;
+            utter.rate = 1.;
             utter.volume = 0.5;
             synth.speak(utter);
         }
@@ -317,6 +313,11 @@
             utter.lang = 'en-US';
             utter.rate = 0.75;
             synth.speak(utter);
+            ph = ''
+            for (let i = 0; i < currentWord.sounds.length; i++) {
+                ph += currentWord.sounds[i];
+            }
+            synth.speak(ph);            
         }
 
         function showFeedback(msg, colorClass = "text-white") {
