@@ -30,7 +30,7 @@
     <div class="max-w-4xl w-full bg-slate-800 rounded-3xl p-6 shadow-2xl border border-slate-700">
         <header class="text-center mb-8">
             <h1 class="text-3xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
-                Phoneme Master 1
+                Phoneme Master 2
             </h1>
             <p class="text-slate-400 text-sm mt-2">Listen to the word and select the sounds in order.</p>
         </header>
@@ -313,7 +313,7 @@
             utter.lang = 'en-US';
             utter.rate = 0.75;
             synth.speak(utter);
-            ph = ''
+            ph = '. the word is: '
             for (let i = 0; i < currentWord.sounds.length; i++) {
                 ph += currentWord.sounds[i];
             }
