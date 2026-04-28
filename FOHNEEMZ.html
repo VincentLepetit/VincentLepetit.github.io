@@ -30,7 +30,7 @@
     <div class="max-w-4xl w-full bg-slate-800 rounded-3xl p-6 shadow-2xl border border-slate-700">
         <header class="text-center mb-8">
             <h1 class="text-3xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
-                Phoneme Master 0.9
+                Phoneme Master 0.91
             </h1>
             <p class="text-slate-400 text-sm mt-2">Listen to the word and select the sounds in order.</p>
         </header>
@@ -221,7 +221,7 @@
          function playCorrectSound() {
             if (synth.speaking) synth.cancel();
             const utter = new SpeechSynthesisUtterance("good");
-            utter.pitch = 0.3;
+            utter.pitch = 0.1;
             utter.rate = 0.7;
             utter.volume = 0.5;
             synth.speak(utter);
@@ -230,8 +230,8 @@
         function playWrongSound() {
             if (synth.speaking) synth.cancel();
             const utter = new SpeechSynthesisUtterance("quack");
-            utter.pitch = 1;
-            utter.rate = 1.;
+            utter.pitch = 2;
+            utter.rate = 2.;
             utter.volume = 0.5;
             synth.speak(utter);
         }
